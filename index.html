@@ -1,165 +1,146 @@
 <!DOCTYPE html>
-<html data-wf-domain="pirate-spaceship.webflow.io"
-  data-wf-page="645f0a04255d0d8665a968e8"
-  data-wf-site="645f0a04255d0d8665a9685b"
-  data-wf-status="1">
-  <head>
-    <meta charset="utf-8" />
-    <title>AIM INFINITE GAMING</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="description" name="AI Gaming" />
-    <!-- ICON -->
-     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/" rel="preconnect" />
-    <link
-      href="https://fonts.gstatic.com/"
-      rel="preconnect"
-      crossorigin="anonymous"
-    />
-    <!-- FONTS -->
-    <script
-      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
-      type="text/javascript"
-    ></script>
-    <script type="text/javascript">
-      WebFont.load({
-        google: {
-          families: [
-            "Rubik:regular,600,700,900,italic,600italic,700italic,900italic",
-          ],
-        },
-      });
-    </script>
-    <script type="text/javascript">
-      !(function (o, c) {
-        var n = c.documentElement,
-          t = " w-mod-";
-        (n.className += t + "js"),
-          ("ontouchstart" in o ||
-            (o.DocumentTouch && c instanceof DocumentTouch)) &&
-            (n.className += t + "touch");
-      })(window, document);
-    </script>
-    <!-- SITE ICONS -->
-    <link
-      href="images/favicon.ico"
-      rel="shortcut icon"
-      type="image/x-icon"
-    />
-    <link
-      href="images/apple-touch-icon.png"
-      rel="apple-touch-icon"
-    />
-    <!-- OTHERS -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
-    />
-    <link
-      href="https://assets.website-files.com/645f0a04255d0d8665a9685b/css/pirate-spaceship.webflow.9b88a224d.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+<html data-wf-domain="pirate-spaceship.webflow.io" data-wf-page="645f0a04255d0d8665a968e8"
+  data-wf-site="645f0a04255d0d8665a9685b" data-wf-status="1">
 
-    <style>
-      .flickity-viewport {
-        width: 100%;
-        overflow: visible !important;
+<head>
+  <meta charset="utf-8" />
+  <title>AI GAMING</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="description" name="Playstation For Rent" />
+  <!-- ICON -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/favicon-512x512.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/favicon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/" rel="preconnect" />
+  <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin="anonymous" />
+  <!-- FONTS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    WebFont.load({
+      google: {
+        families: [
+          "Rubik:regular,600,700,900,italic,600italic,700italic,900italic",
+        ],
+      },
+    });
+  </script>
+  <script type="text/javascript">
+    !(function (o, c) {
+      var n = c.documentElement,
+        t = " w-mod-";
+      (n.className += t + "js"),
+        ("ontouchstart" in o ||
+          (o.DocumentTouch && c instanceof DocumentTouch)) &&
+        (n.className += t + "touch");
+    })(window, document);
+  </script>
+  <!-- SITE ICONS -->
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link href="images/apple-touch-icon.png" rel="apple-touch-icon" />
+  <!-- OTHERS -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+  <link href="https://assets.website-files.com/645f0a04255d0d8665a9685b/css/pirate-spaceship.webflow.9b88a224d.css"
+    rel="stylesheet" type="text/css" />
+
+  <style>
+    .flickity-viewport {
+      width: 100%;
+      overflow: visible !important;
+    }
+
+    .flickity-button {
+      display: none;
+    }
+  </style>
+
+  <style>
+    /* add custom cursor */
+    .typed-words::after {
+      content: "|";
+      display: inline;
+      animation: blink 1s infinite;
+    }
+
+    /* custom cursor animation */
+    @keyframes blink {
+      0% {
+        opacity: 1;
       }
 
-      .flickity-button {
-        display: none;
-      }
-    </style>
-
-    <style>
-      /* add custom cursor */
-      .typed-words::after {
-        content: "|";
-        display: inline;
-        animation: blink 1s infinite;
+      50% {
+        opacity: 0;
       }
 
-      /* custom cursor animation */
-      @keyframes blink {
-        0% {
-          opacity: 1;
-        }
-
-        50% {
-          opacity: 0;
-        }
-
-        100% {
-          opacity: 1;
-        }
+      100% {
+        opacity: 1;
       }
-    </style>
+    }
+  </style>
 
-    <style>
-          /* Make text look crisper and more legible in all browsers */
-          body {
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            /* font-smoothing: antialiased; */
-            text-rendering: optimizeLegibility;
-          }
+  <style>
+    /* Make text look crisper and more legible in all browsers */
+    body {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      /* font-smoothing: antialiased; */
+      text-rendering: optimizeLegibility;
+    }
 
-          /* Focus state style for keyboard navigation for the focusable elements */
-          *[tabindex]:focus-visible,
-          input[type="file"]:focus-visible {
-            outline: 0.125rem solid #4d65ff;
-            outline-offset: 0.125rem;
-          }
+    /* Focus state style for keyboard navigation for the focusable elements */
+    *[tabindex]:focus-visible,
+    input[type="file"]:focus-visible {
+      outline: 0.125rem solid #4d65ff;
+      outline-offset: 0.125rem;
+    }
 
-          /* Get rid of top margin on first element in any rich text element */
-          .w-richtext > :not(div):first-child,
-          .w-richtext > div:first-child > :first-child {
-            margin-top: 0 !important;
-          }
+    /* Get rid of top margin on first element in any rich text element */
+    .w-richtext> :not(div):first-child,
+    .w-richtext>div:first-child> :first-child {
+      margin-top: 0 !important;
+    }
 
-          /* Get rid of bottom margin on last element in any rich text element */
-          .w-richtext > :last-child,
-          .w-richtext ol li:last-child,
-          .w-richtext ul li:last-child {
-            margin-bottom: 0 !important;
-          }
+    /* Get rid of bottom margin on last element in any rich text element */
+    .w-richtext> :last-child,
+    .w-richtext ol li:last-child,
+    .w-richtext ul li:last-child {
+      margin-bottom: 0 !important;
+    }
 
-          /* Prevent all click and hover interaction with an element */
-          .pointer-events-off {
-            pointer-events: none;
-          }
+    /* Prevent all click and hover interaction with an element */
+    .pointer-events-off {
+      pointer-events: none;
+    }
 
-          /* Enables all click and hover interaction with an element */
-          .pointer-events-on {
-            pointer-events: auto;
-          }
+    /* Enables all click and hover interaction with an element */
+    .pointer-events-on {
+      pointer-events: auto;
+    }
 
-          /* Create a class of .div-square which maintains a 1:1 dimension of a div */
-          .div-square::after {
-            content: "";
-            display: block;
-            padding-bottom: 100%;
-          }
+    /* Create a class of .div-square which maintains a 1:1 dimension of a div */
+    .div-square::after {
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+    }
 
-          /* Make sure containers never lose their center alignment */
-          .container-medium,
-          .container-small,
-          .container-large {
-            margin-right: auto !important;
-            margin-left: auto !important;
-          }
+    /* Make sure containers never lose their center alignment */
+    .container-medium,
+    .container-small,
+    .container-large {
+      margin-right: auto !important;
+      margin-left: auto !important;
+    }
 
-          /* 
+    /* 
 Make the following elements inherit typography styles from the parent and not have hardcoded values. 
 Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
 Uncomment this CSS to use it in the project. Leave this message for future hand-off.
 */
-          /*
+    /*
 a,
 .w-input,
 .w-select,
@@ -174,197 +155,188 @@ a,
 }
 */
 
-          /* Apply "..." after 3 lines of text */
-          .text-style-3lines {
-            display: -webkit-box;
-            overflow: hidden;
-            -webkit-line-clamp: 3;
-            line-clamp: 3;
-            -webkit-box-orient: vertical;
-          }
+    /* Apply "..." after 3 lines of text */
+    .text-style-3lines {
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-line-clamp: 3;
+      line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
 
-          /* Apply "..." after 2 lines of text */
-          .text-style-2lines {
-            display: -webkit-box;
-            overflow: hidden;
-            -webkit-line-clamp: 2;
-            line-clamp: 3;
-            -webkit-box-orient: vertical;
-          }
+    /* Apply "..." after 2 lines of text */
+    .text-style-2lines {
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-line-clamp: 2;
+      line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
 
-          /* Adds inline flex display */
-          .display-inlineflex {
-            display: inline-flex;
-          }
+    /* Adds inline flex display */
+    .display-inlineflex {
+      display: inline-flex;
+    }
 
-          /* These classes are never overwritten */
-          .hide {
-            display: none !important;
-          }
+    /* These classes are never overwritten */
+    .hide {
+      display: none !important;
+    }
 
-          @media screen and (max-width: 991px) {
-            .hide,
-            .hide-tablet {
-              display: none !important;
-            }
-          }
+    @media screen and (max-width: 991px) {
 
-          @media screen and (max-width: 767px) {
-            .hide-mobile-landscape {
-              display: none !important;
-            }
-          }
+      .hide,
+      .hide-tablet {
+        display: none !important;
+      }
+    }
 
-          @media screen and (max-width: 479px) {
-            .hide-mobile {
-              display: none !important;
-            }
-          }
+    @media screen and (max-width: 767px) {
+      .hide-mobile-landscape {
+        display: none !important;
+      }
+    }
 
-          .margin-0 {
-            margin: 0rem !important;
-          }
+    @media screen and (max-width: 479px) {
+      .hide-mobile {
+        display: none !important;
+      }
+    }
 
-          .padding-0 {
-            padding: 0rem !important;
-          }
+    .margin-0 {
+      margin: 0rem !important;
+    }
 
-          .spacing-clean {
-            padding: 0rem !important;
-            margin: 0rem !important;
-          }
+    .padding-0 {
+      padding: 0rem !important;
+    }
 
-          .margin-top {
-            margin-right: 0rem !important;
-            margin-bottom: 0rem !important;
-            margin-left: 0rem !important;
-          }
+    .spacing-clean {
+      padding: 0rem !important;
+      margin: 0rem !important;
+    }
 
-          .padding-top {
-            padding-right: 0rem !important;
-            padding-bottom: 0rem !important;
-            padding-left: 0rem !important;
-          }
+    .margin-top {
+      margin-right: 0rem !important;
+      margin-bottom: 0rem !important;
+      margin-left: 0rem !important;
+    }
 
-          .margin-right {
-            margin-top: 0rem !important;
-            margin-bottom: 0rem !important;
-            margin-left: 0rem !important;
-          }
+    .padding-top {
+      padding-right: 0rem !important;
+      padding-bottom: 0rem !important;
+      padding-left: 0rem !important;
+    }
 
-          .padding-right {
-            padding-top: 0rem !important;
-            padding-bottom: 0rem !important;
-            padding-left: 0rem !important;
-          }
+    .margin-right {
+      margin-top: 0rem !important;
+      margin-bottom: 0rem !important;
+      margin-left: 0rem !important;
+    }
 
-          .margin-bottom {
-            margin-top: 0rem !important;
-            margin-right: 0rem !important;
-            margin-left: 0rem !important;
-          }
+    .padding-right {
+      padding-top: 0rem !important;
+      padding-bottom: 0rem !important;
+      padding-left: 0rem !important;
+    }
 
-          .padding-bottom {
-            padding-top: 0rem !important;
-            padding-right: 0rem !important;
-            padding-left: 0rem !important;
-          }
+    .margin-bottom {
+      margin-top: 0rem !important;
+      margin-right: 0rem !important;
+      margin-left: 0rem !important;
+    }
 
-          .margin-left {
-            margin-top: 0rem !important;
-            margin-right: 0rem !important;
-            margin-bottom: 0rem !important;
-          }
+    .padding-bottom {
+      padding-top: 0rem !important;
+      padding-right: 0rem !important;
+      padding-left: 0rem !important;
+    }
 
-          .padding-left {
-            padding-top: 0rem !important;
-            padding-right: 0rem !important;
-            padding-bottom: 0rem !important;
-          }
+    .margin-left {
+      margin-top: 0rem !important;
+      margin-right: 0rem !important;
+      margin-bottom: 0rem !important;
+    }
 
-          .margin-horizontal {
-            margin-top: 0rem !important;
-            margin-bottom: 0rem !important;
-          }
+    .padding-left {
+      padding-top: 0rem !important;
+      padding-right: 0rem !important;
+      padding-bottom: 0rem !important;
+    }
 
-          .padding-horizontal {
-            padding-top: 0rem !important;
-            padding-bottom: 0rem !important;
-          }
+    .margin-horizontal {
+      margin-top: 0rem !important;
+      margin-bottom: 0rem !important;
+    }
 
-          .margin-vertical {
-            margin-right: 0rem !important;
-            margin-left: 0rem !important;
-          }
+    .padding-horizontal {
+      padding-top: 0rem !important;
+      padding-bottom: 0rem !important;
+    }
 
-          .padding-vertical {
-            padding-right: 0rem !important;
-            padding-left: 0rem !important;
-          }
-    </style>
-    
-  </head>
+    .margin-vertical {
+      margin-right: 0rem !important;
+      margin-left: 0rem !important;
+    }
 
-  <body>
-    <article id="luxy" class="page-wrapper">
-      
-      <!-- <div class="global-styles w-embed">
+    .padding-vertical {
+      padding-right: 0rem !important;
+      padding-left: 0rem !important;
+    }
+  </style>
+
+</head>
+
+<body>
+  <article id="luxy" class="page-wrapper">
+
+    <!-- <div class="global-styles w-embed">
       </div> -->
 
-      <main class="main-wrapper">
-        <div
-          data-animation="default"
-          class="navbar_component w-nav"
-          data-easing2="ease"
-          fs-scrolldisable-element="smart-nav"
-          data-easing="ease"
-          data-collapse="medium"
-          data-w-id="10fc0437-2deb-cf51-6e6e-426e68945339"
-          role="banner"
-          data-duration="400"
-        >
+    <main class="main-wrapper">
+      <div data-animation="default" class="navbar_component w-nav" data-easing2="ease"
+        fs-scrolldisable-element="smart-nav" data-easing="ease" data-collapse="medium"
+        data-w-id="10fc0437-2deb-cf51-6e6e-426e68945339" role="banner" data-duration="400">
 
-          <div class="navbar_container">
+        <div class="navbar_container">
 
-            <!-- LOGO -->
-            <a href="#" class="navbar_logo-link w-nav-brand hide-mobile-landscape">
-              <div class="w-embed">
-               <img src="images/logo.png" alt="AI Gaming Logo" width="60" height="40" style="width: 5rem; height: auto;" />
-              </div>
-            </a>
-            
-            <!-- Mobile Menu Button -->
-            <button id="mobile-menu-btn" class="mobile-menu-button" aria-label="Toggle menu">
-              <span></span>
-              <span></span>
-              <span></span>
-            </button>
-
-            <!-- NAVBAR -->
-            <nav
-              role="navigation"
-              id="w-node-_10fc0437-2deb-cf51-6e6e-426e6894533d-65a968e8"
-              class="navbar_menu is-page-height-tablet w-nav-menu"
-            >
-              <a href="#home" class="nav-bar w-nav-link">Home</a>
-              <a href="#key-points" class="nav-bar w-nav-link">Rentals</a>
-              <a href="#NFT" class="nav-bar w-nav-link">Games</a>
-              <a href="#roadmap" class="nav-bar w-nav-link">Events</a>
-              <a href="#coupon" class="nav-bar w-nav-link">Coupon</a>
-            </nav>
-
-            <!-- Mobile Navigation Menu -->
-            <div id="mobile-nav" class="mobile-nav">
-              <div class="mobile-nav-content">
-                <a href="#home" class="mobile-nav-link">Home</a>
-                <a href="#key-points" class="mobile-nav-link">Rentals</a>
-                <a href="#NFT" class="mobile-nav-link">Games</a>
-                <a href="#roadmap" class="mobile-nav-link">Events</a>
-                <a href="#coupon" class="mobile-nav-link">Coupon</a>
-              </div>
+          <!-- LOGO -->
+          <a href="#" class="navbar_logo-link w-nav-brand hide-mobile-landscape">
+            <div class="w-embed">
+              <img src="images/logo.png" alt="AI Gaming Logo" width="60" height="40"
+                style="width: 5rem; height: auto;" />
             </div>
+          </a>
 
-            <style>
+          <!-- Mobile Menu Button -->
+          <button id="mobile-menu-btn" class="mobile-menu-button" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <!-- NAVBAR -->
+          <nav role="navigation" id="w-node-_10fc0437-2deb-cf51-6e6e-426e6894533d-65a968e8"
+            class="navbar_menu is-page-height-tablet w-nav-menu">
+            <a href="#home" class="nav-bar w-nav-link">Home</a>
+            <a href="#key-points" class="nav-bar w-nav-link">Rentals</a>
+            <a href="#NFT" class="nav-bar w-nav-link">Games</a>
+            <a href="#roadmap" class="nav-bar w-nav-link">Events</a>
+            <a href="#coupon" class="nav-bar w-nav-link">Coupon</a>
+          </nav>
+
+          <!-- Mobile Navigation Menu -->
+          <div id="mobile-nav" class="mobile-nav">
+            <div class="mobile-nav-content">
+              <a href="#home" class="mobile-nav-link">Home</a>
+              <a href="#key-points" class="mobile-nav-link">Rentals</a>
+              <a href="#NFT" class="mobile-nav-link">Games</a>
+              <a href="#roadmap" class="mobile-nav-link">Events</a>
+              <a href="#coupon" class="mobile-nav-link">Coupon</a>
+            </div>
+          </div>
+
+          <style>
             /* Mobile Menu Styles */
             .mobile-menu-button {
               display: none;
@@ -432,7 +404,7 @@ a,
               .navbar_menu {
                 display: none;
               }
-              
+
               .mobile-menu-button {
                 display: flex;
               }
@@ -454,16 +426,24 @@ a,
                 transform: rotate(-45deg) translate(6px, -6px);
               }
             }
-            </style>
 
-            <script>
-            document.addEventListener('DOMContentLoaded', function() {
+            @media only screen and (max-width: 600px) {
+              li.mobileHide {
+                display: none !important;
+              }
+
+              /* This will hide all the <li> elements on a page in Mobile View */
+            }
+          </style>
+
+          <script>
+            document.addEventListener('DOMContentLoaded', function () {
               const menuBtn = document.getElementById('mobile-menu-btn');
               const mobileNav = document.getElementById('mobile-nav');
               const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
 
               // Toggle mobile menu
-              menuBtn.addEventListener('click', function() {
+              menuBtn.addEventListener('click', function () {
                 this.classList.toggle('active');
                 mobileNav.classList.toggle('active');
                 document.body.style.overflow = mobileNav.classList.contains('active') ? 'hidden' : '';
@@ -471,7 +451,7 @@ a,
 
               // Close menu when clicking a link
               mobileNavLinks.forEach(link => {
-                link.addEventListener('click', function() {
+                link.addEventListener('click', function () {
                   menuBtn.classList.remove('active');
                   mobileNav.classList.remove('active');
                   document.body.style.overflow = '';
@@ -479,7 +459,7 @@ a,
               });
 
               // Close menu when clicking outside
-              mobileNav.addEventListener('click', function(e) {
+              mobileNav.addEventListener('click', function (e) {
                 if (e.target === this) {
                   menuBtn.classList.remove('active');
                   mobileNav.classList.remove('active');
@@ -487,112 +467,86 @@ a,
                 }
               });
             });
-            </script>
-            <div
-              id="w-node-_10fc0437-2deb-cf51-6e6e-426e68945350-65a968e8"
-              class="navbar2_button-wrapper"
-            >
-              <a
-                href="#"
-                target="_blank"
-                class="button-block-small w-inline-block"
-              >
-                <div class="button-small w-embed">
-                  <svg
-                    width="100%"
-                    viewBox="0 0 166 50"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M5 10.7686L11.9677 5H161V39.2314L154.032 45L30.4701 45L26.0337 39.8444H5V10.7686ZM158.704 14.0742V6.92286H150.04L158.704 14.0742ZM5 42.5H22.2818L24.5 44.9352H5V42.5Z"
-                      fill="#00FFFF"
-                    />
-                    <path
-                      d="M1 26.1034V9.86004L11.08 1H29"
-                      stroke="#00FFFF"
-                      stroke-linecap="round"
-                    />
-                    <path
-                      d="M165 25L165 40.5294L154.92 49L137 49"
-                      stroke="#00FFFF"
-                      stroke-linecap="round"
-                    />
-                  </svg>
+          </script>
+          <div id="w-node-_10fc0437-2deb-cf51-6e6e-426e68945350-65a968e8" class="navbar2_button-wrapper">
+            <a href="#" target="_blank" class="button-block-small w-inline-block">
+              <div class="button-small w-embed">
+                <svg width="100%" viewBox="0 0 166 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M5 10.7686L11.9677 5H161V39.2314L154.032 45L30.4701 45L26.0337 39.8444H5V10.7686ZM158.704 14.0742V6.92286H150.04L158.704 14.0742ZM5 42.5H22.2818L24.5 44.9352H5V42.5Z"
+                    fill="#00FFFF" />
+                  <path d="M1 26.1034V9.86004L11.08 1H29" stroke="#00FFFF" stroke-linecap="round" />
+                  <path d="M165 25L165 40.5294L154.92 49L137 49" stroke="#00FFFF" stroke-linecap="round" />
+                </svg>
+              </div>
+              <p class="text-size-regular text-weight-semibold"
+                onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('Enquiry: I would like to get a quote for your rentals.'), '_blank')">
+                Book Now</p>
+            </a>
+            <div class="navbar2_menu-button w-nav-button">
+              <div class="menu-icon2">
+                <div class="menu-icon2_line-top"></div>
+                <div class="menu-icon2_line-middle">
+                  <div class="menu-icon_line-middle-inner"></div>
                 </div>
-                <p class="text-size-regular text-weight-semibold" onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('Enquiry: I would like to get a quote for your rentals.'), '_blank')">Book Now</p>
-              </a>
-              <div class="navbar2_menu-button w-nav-button">
-                <div class="menu-icon2">
-                  <div class="menu-icon2_line-top"></div>
-                  <div class="menu-icon2_line-middle">
-                    <div class="menu-icon_line-middle-inner"></div>
-                  </div>
-                  <div class="menu-icon2_line-bottom"></div>
-                </div>
+                <div class="menu-icon2_line-bottom"></div>
               </div>
             </div>
           </div>
         </div>
-        <section
-          data-w-id="991770bc-d00c-8f66-12fc-b35d2fa1e424"
-          class="hero-section"
-          id="Home"
-        >
-          <div class="hero-header">
-            <h1 class="heading-style-h1 desktop" style="margin-top: -5rem;">AI<br />GAMING</h1>
-            <h1 class="heading-style-h1 mobile">
-              <br/>
-              <br/>
-              <br/>
-              AI<br />GAMING</h1>
-          </div>
-          <div class="layer_3"></div>
-          <div class="layer_2"></div>
-          <div class="layer_1"></div>
-          <div class="layer_0"></div>
-        </section>
+      </div>
+      <section data-w-id="991770bc-d00c-8f66-12fc-b35d2fa1e424" class="hero-section" id="Home">
+        <div class="hero-header">
+          <h1 class="heading-style-h1 desktop" style="margin-top: -5rem;">AI<br />GAMING</h1>
+          <h1 class="heading-style-h1 mobile">
+            <br />
+            <br />
+            <br />
+            AI<br />GAMING
+          </h1>
+        </div>
+        <div class="layer_3"></div>
+        <div class="layer_2"></div>
+        <div class="layer_1"></div>
+        <div class="layer_0"></div>
+      </section>
 
-        <section class="message-section">
-          <div
-            data-w-id="a6770424-2ce2-32f4-ffc5-ec168abba49f"
-            class="message-paragraph"
-          >
-            <h2 class="is--center">
-              Level up your gaming experience. Please choose from our PS4, PS5, Logitech G29 driving simulator, gaming monitors, gaming chairs, and projector for the ultimate gaming setup.
-              <br />
-              Rent anytime, anywhere
-              <br/>
-              <br/>
-              Gear up and dive into the ultimate gaming experience with top-tier consoles and high-performance accessories built for champions.
-            </h2>
-          </div>
-        </section>
+      <section class="message-section">
+        <div data-w-id="a6770424-2ce2-32f4-ffc5-ec168abba49f" class="message-paragraph">
+          <h2 class="is--center">
+            Level up your gaming experience. Please choose from our PS4, PS5, Logitech G29 driving simulator, gaming
+            monitors, gaming chairs, and projector for the ultimate gaming setup.
+            <br />
+            Rent anytime, anywhere
+            <br />
+            <br />
+            Gear up and dive into the ultimate gaming experience with top-tier consoles and high-performance accessories
+            built for champions.
+          </h2>
+        </div>
+      </section>
 
-        <section id="key-points" class="features-section">
-          <div class="padding-global">
-            <div class="container-large">
-              <!-- <div class="padding-vertical"> -->
-                <div class="header-wrapper">
-                  <h2 class="heading-style-h2">loadout zone</h2>
-                    <h4 class="heading-style-h4">Choose your gear. Play  anytime, anywhere</h4>
-                </div>
-                
-                <div
-                  data-w-id="96de1624-99fc-08a2-9327-e5e4a81299d5"
-                  class="features-wrapper padding-vertical"
-                >
-                  <div class="content-wrapper">
-                    <h3 class="heading-style-h5">
-                      Sony Playstation 5 : Next-Level Gaming Performance
-                    </h3>
-                    <p class="text-size-regular">
-                     Experience the future of gaming with our Sony PlayStation 5 and PlayStation 4 rentals. Enjoy lightning-fast load times, stunning graphics, and an immersive gaming experience that will take your gameplay to new heights.
-                    </p>
-                  </div>
-                  <!-- <img
+      <section id="key-points" class="features-section">
+        <div class="padding-global">
+          <div class="container-large">
+            <!-- <div class="padding-vertical"> -->
+            <div class="header-wrapper">
+              <h2 class="heading-style-h2">loadout zone</h2>
+              <h4 class="heading-style-h4">Choose your gear. Play anytime, anywhere</h4>
+            </div>
+
+            <div data-w-id="96de1624-99fc-08a2-9327-e5e4a81299d5" class="features-wrapper padding-vertical">
+              <div class="content-wrapper">
+                <h3 class="heading-style-h5">
+                  Sony Playstation 5 : Next-Level Gaming Performance
+                </h3>
+                <p class="text-size-regular">
+                  Experience the future of gaming with our Sony PlayStation 5 and PlayStation 4 rentals. Enjoy
+                  lightning-fast load times, stunning graphics, and an immersive gaming experience that will take your
+                  gameplay to new heights.
+                </p>
+              </div>
+              <!-- <img
                     src="images/monitor.png"
                     loading="lazy"
                     style="
@@ -611,11 +565,7 @@ a,
                     alt="ps5"
                     class="spaceship-2"
                   /> -->
-                  <img
-                    src="images/ps5.png"
-                    loading="lazy"
-                    width="432.5"
-                    style="
+              <img src="images/ps5.png" loading="lazy" width="432.5" style="
                       -webkit-transform: translate3d(25vw, 0, 0)
                         scale3d(0.7, 0.7, 1) rotateX(0) rotateY(0) rotateZ(0)
                         skew(0, 0);
@@ -627,35 +577,28 @@ a,
                         skew(0, 0);
                       transform: translate3d(25vw, 0, 0) scale3d(0.7, 0.7, 1)
                         rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                    "
-                    srcset="
+                    " srcset="
                       images/ps5-p-500.png 500w,
                       images/ps5.png       865w
-                    "
-                    sizes="(max-width: 479px) 50vw, (max-width: 767px) 52vw, (max-width: 991px) 51vw, 49vw"
-                    alt=""
-                    class="spaceship-1"
-                  />
-                </div>
+                    " sizes="(max-width: 479px) 50vw, (max-width: 767px) 52vw, (max-width: 991px) 51vw, 49vw" alt=""
+                class="spaceship-1" />
+            </div>
 
-                <div
-                  data-w-id="0ab89df7-cac6-b8c8-1fef-3145f2ab8d84"
-                  class="features-wrapper padding-vertical"
-                >
-                  <div class="content-wrapper"></div>
-                  <div class="content-wrapper">
-                    <h3 class="heading-style-h4">
-                      Logitech G29 Driving Simulator : Realistic Racing Experience
-                    </h3>
-                    <p class="text-size-regular">
-                      Take your racing skills to the next level with our Logitech
-                      G29 driving simulator rental. Featuring a responsive
-                      steering wheel, pedals, and gear shifter, this setup
-                      provides a realistic driving experience that will make you
-                      feel like you're on the track.
-                    </p>
-                  </div>
-                  <!-- <img
+            <div data-w-id="0ab89df7-cac6-b8c8-1fef-3145f2ab8d84" class="features-wrapper padding-vertical">
+              <div class="content-wrapper"></div>
+              <div class="content-wrapper">
+                <h3 class="heading-style-h4">
+                  Logitech G29 Driving Simulator : Realistic Racing Experience
+                </h3>
+                <p class="text-size-regular">
+                  Take your racing skills to the next level with our Logitech
+                  G29 driving simulator rental. Featuring a responsive
+                  steering wheel, pedals, and gear shifter, this setup
+                  provides a realistic driving experience that will make you
+                  feel like you're on the track.
+                </p>
+              </div>
+              <!-- <img
                     src="images/ps5C.png"
                     loading="lazy"
                     style="
@@ -674,11 +617,7 @@ a,
                     alt=""
                     class="spaceship-4"
                   /> -->
-                  <img
-                    src="images/pngegg.png"
-                    loading="lazy"
-                    width="348.5"
-                    style="
+              <img src="images/pngegg.png" loading="lazy" width="348.5" style="
                       -webkit-transform: translate3d(-15vw, 0, 0)
                         scale3d(0.8, 0.8, 1) rotateX(0) rotateY(0) rotateZ(0)
                         skew(0, 0);
@@ -690,30 +629,24 @@ a,
                         skew(0, 0);
                       transform: translate3d(-15vw, 0, 0) scale3d(0.8, 0.8, 1)
                         rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                    "
-                    srcset="
+                    " srcset="
                       images/pngegg.png 500w,
                       images/pngegg.png       697w
-                    "
-                    sizes="(max-width: 479px) 44vw, (max-width: 991px) 45vw, 43vw"
-                    alt=""
-                    class="spaceship-3"
-                  />
-                </div>
+                    " sizes="(max-width: 479px) 44vw, (max-width: 991px) 45vw, 43vw" alt="" class="spaceship-3" />
+            </div>
 
-                 <div
-                  data-w-id="96de1624-99fc-08a2-9327-e5e4a81299d5"
-                  class="features-wrapper padding-vertical"
-                >
-                  <div class="content-wrapper">
-                    <h3 class="heading-style-h5">
-                      AOC GAMING MONITORS: BUILT FOR THE WIN
-                    </h3>
-                    <p class="text-size-regular">
-                      Dominate every frame with AOC&apos;s high-performance gaming monitors. With blazing-fast refresh rates, adaptive sync, and vibrant displays, these monitors deliver precision and clarity that push your gameplay to the limit.
-                    </p>
-                  </div>
-                  <!-- <img
+            <div data-w-id="96de1624-99fc-08a2-9327-e5e4a81299d5" class="features-wrapper padding-vertical">
+              <div class="content-wrapper">
+                <h3 class="heading-style-h5">
+                  AOC GAMING MONITORS: BUILT FOR THE WIN
+                </h3>
+                <p class="text-size-regular">
+                  Dominate every frame with AOC&apos;s high-performance gaming monitors. With blazing-fast refresh
+                  rates, adaptive sync, and vibrant displays, these monitors deliver precision and clarity that push
+                  your gameplay to the limit.
+                </p>
+              </div>
+              <!-- <img
                     src="images/ps5.png"
                     loading="lazy"
                     style="
@@ -732,11 +665,7 @@ a,
                     alt="ps5"
                     class="spaceship-2"
                   /> -->
-                  <img
-                    src="images/monitor.png"
-                    loading="lazy"
-                    width="432.5"
-                    style="
+              <img src="images/monitor.png" loading="lazy" width="432.5" style="
                       -webkit-transform: translate3d(25vw, 0, 0)
                         scale3d(0.7, 0.7, 1) rotateX(0) rotateY(0) rotateZ(0)
                         skew(0, 0);
@@ -748,31 +677,26 @@ a,
                         skew(0, 0);
                       transform: translate3d(25vw, 0, 0) scale3d(0.7, 0.7, 1)
                         rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                    "
-                    srcset="
+                    " srcset="
                       images/monitor.png 500w,
                       images/monitor.png       865w
-                    "
-                    sizes="(max-width: 479px) 50vw, (max-width: 767px) 52vw, (max-width: 991px) 51vw, 49vw"
-                    alt=""
-                    class="spaceship-1"
-                  />
-                </div>
+                    " sizes="(max-width: 479px) 50vw, (max-width: 767px) 52vw, (max-width: 991px) 51vw, 49vw" alt=""
+                class="spaceship-1" />
+            </div>
 
-                <div
-                  data-w-id="0ab89df7-cac6-b8c8-1fef-3145f2ab8d84"
-                  class="features-wrapper padding-vertical"
-                >
-                  <div class="content-wrapper"></div>
-                  <div class="content-wrapper">
-                    <h3 class="heading-style-h4">
-                      DualSense Wireless Controller : Precision and Comfort
-                    </h3>
-                    <p class="text-size-regular">
-                      Take control of your game like never before with the DualSense Wireless Controller. Experience every crash, kick, and victory with immersive haptic feedback and adaptive triggers that react to your gameplay in real time.
-                    </p>
-                  </div>
-                  <!-- <img
+            <div data-w-id="0ab89df7-cac6-b8c8-1fef-3145f2ab8d84" class="features-wrapper padding-vertical">
+              <div class="content-wrapper"></div>
+              <div class="content-wrapper">
+                <h3 class="heading-style-h4">
+                  DualSense Wireless Controller : Precision and Comfort
+                </h3>
+                <p class="text-size-regular">
+                  Take control of your game like never before with the DualSense Wireless Controller. Experience every
+                  crash, kick, and victory with immersive haptic feedback and adaptive triggers that react to your
+                  gameplay in real time.
+                </p>
+              </div>
+              <!-- <img
                     src="images/ps5C.png"
                     loading="lazy"
                     style="
@@ -791,11 +715,7 @@ a,
                     alt=""
                     class="spaceship-4"
                   /> -->
-                  <img
-                    src="images/ps5C.png"
-                    loading="lazy"
-                    width="348.5"
-                    style="
+              <img src="images/ps5C.png" loading="lazy" width="348.5" style="
                       -webkit-transform: translate3d(-15vw, 0, 0)
                         scale3d(0.8, 0.8, 1) rotateX(0) rotateY(0) rotateZ(0)
                         skew(0, 0);
@@ -807,30 +727,23 @@ a,
                         skew(0, 0);
                       transform: translate3d(-15vw, 0, 0) scale3d(0.8, 0.8, 1)
                         rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                    "
-                    srcset="
+                    " srcset="
                       images/ps5C.png 500w,
                       images/ps5C.png       697w
-                    "
-                    sizes="(max-width: 479px) 44vw, (max-width: 991px) 45vw, 43vw"
-                    alt=""
-                    class="spaceship-3"
-                  />
-                </div>
+                    " sizes="(max-width: 479px) 44vw, (max-width: 991px) 45vw, 43vw" alt="" class="spaceship-3" />
+            </div>
 
-                <div
-                  data-w-id="96de1624-99fc-08a2-9327-e5e4a81299d5"
-                  class="features-wrapper"
-                >
-                  <div class="content-wrapper">
-                    <h3 class="heading-style-h4">
-                      ANT ESPORTS GAMING CHAIR : GAME IN TOTAL COMFORT
-                    </h3>
-                    <p class="text-size-regular">
-                      Level up your setup with the Ant Esports Gaming Chair. Featuring adjustable recline, soft padding, and breathable materials, it&apos;s built to handle every victory and late-night grind in style.
-                    </p>
-                  </div>
-                  <!-- <img
+            <div data-w-id="96de1624-99fc-08a2-9327-e5e4a81299d5" class="features-wrapper">
+              <div class="content-wrapper">
+                <h3 class="heading-style-h4">
+                  ANT ESPORTS GAMING CHAIR : GAME IN TOTAL COMFORT
+                </h3>
+                <p class="text-size-regular">
+                  Level up your setup with the Ant Esports Gaming Chair. Featuring adjustable recline, soft padding, and
+                  breathable materials, it&apos;s built to handle every victory and late-night grind in style.
+                </p>
+              </div>
+              <!-- <img
                     src="images/monitor.png"
                     loading="lazy"
                     style="
@@ -849,11 +762,7 @@ a,
                     alt="ps5"
                     class="spaceship-2"
                   /> -->
-                  <img
-                    src="images/chair.png"
-                    loading="lazy"
-                    width="432.5"
-                    style="
+              <img src="images/chair.png" loading="lazy" width="432.5" style="
                       -webkit-transform: translate3d(25vw, 0, 0)
                         scale3d(0.7, 0.7, 1) rotateX(0) rotateY(0) rotateZ(0)
                         skew(0, 0);
@@ -865,19 +774,15 @@ a,
                         skew(0, 0);
                       transform: translate3d(25vw, 0, 0) scale3d(0.7, 0.7, 1)
                         rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                    "
-                    srcset="
+                    " srcset="
                       images/chair.png 500w,
                       images/chair.png       865w
-                    "
-                    sizes="(max-width: 479px) 50vw, (max-width: 767px) 52vw, (max-width: 991px) 51vw, 49vw"
-                    alt=""
-                    class="spaceship-1"
-                  />
-                </div>
+                    " sizes="(max-width: 479px) 50vw, (max-width: 767px) 52vw, (max-width: 991px) 51vw, 49vw" alt=""
+                class="spaceship-1" />
+            </div>
 
 
-                <!-- <div
+            <!-- <div
                   data-w-id="6d14deb1-887d-0ab3-90a5-eaa701b877aa"
                   class="features-wrapper padding-vertical"
                 >
@@ -915,10 +820,10 @@ a,
                     class="spaceship-1"
                   />
                 </div> -->
-            </div>
           </div>
-          
-          <!-- <div
+        </div>
+
+        <!-- <div
             style="
               -webkit-transform: translate3d(20vw, 30vh, 0) scale3d(0.7, 0.7, 1)
                 rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
@@ -931,26 +836,39 @@ a,
             "
             class="moon-footer"
           ></div> -->
-          <!-- <div class="footer-img"></div> -->
-          <div class="overlay-fade-top-blue"></div>
-        </section>
+        <!-- <div class="footer-img"></div> -->
+        <div class="overlay-fade-top-blue"></div>
+      </section>
 
-        <section class="pricing-section" style="position: relative; z-index: 99; background-color: #01122f;">
-          <div class="padding-global">
-            <div class="container-large">
-              <div class="padding-vertical">
-                <div class="header-wrapper">
-                  <h2 class="heading-style-h2">Personal Plans</h2>
-                  <h4 class="heading-style-h4">Choose your gaming experience</h4>
-                </div>
-                
-                <!-- Personal Plans -->
-                <div class="plans-container" style="display:flex; flex-wrap:wrap; justify-content:center; gap:2rem; padding:2rem 0;">
-                  
-                  <div class="plan-card" style="background:#0b1220; border:1px solid #00ffff; border-radius:12px; padding:2rem; width:300px;">
+      <section class="pricing-section" style="position: relative; z-index: 99; background-color: #01122f;">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-vertical">
+              <div class="header-wrapper">
+                <h2 class="heading-style-h2">Personal Plans</h2>
+                <h4 class="heading-style-h4">Choose your gaming experience</h4>
+              </div>
+
+              <style>
+                @media only screen and (max-width: 480px) {
+
+                  /* this condition matches mobile view */
+                  li.mobileHide {
+                    display: none;
+                  }
+
+                  /* hide the elements matching selector when in Mobile View*/
+                }
+              </style>
+              <!-- Personal Plans -->
+              <div class="plans-container"
+                style="display:flex; flex-wrap:wrap; justify-content:center; gap:2rem; padding:2rem 0;">
+
+                <div class="plan-card"
+                  style="background:#0b1220; border:1px solid #00ffff; border-radius:12px; padding:2rem; width:300px;">
                   <h3 class="heading-style-h4">Daily Plan</h3>
                   <div class="price" style="font-size:2.5rem; color:#00ffff; margin:1rem 0;">
-                    ₹499<span style="font-size:1rem; color:#fff;">/day</span>
+                    ₹499<span style="font-size:1rem; color:#fff;">/Day</span>
                   </div>
                   <ul style="list-style:none; padding:0; margin:1.5rem 0;">
                     <li style="margin:0.75rem 0;">✓ Free delivery and pickup</li>
@@ -959,14 +877,19 @@ a,
                     <li style="margin:0.75rem 0;">✓ 24/7 support</li>
                     <li style="margin:0.75rem 0;">✓ Extra controller ₹100</li>
                     <li style="margin:0.75rem 0;">✓ Extra game ₹100</li>
+                    <li class="mobileHide">&nbsp;</li>
+                    <li class="mobileHide">&nbsp;</li>
                   </ul>
-                  <button class="button is-form-submit w-button" style="width:100%;" onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('I would like to get the Daily rental plan'), '_blank')">Book Now</button>
-                  </div>
+                  <button class="button is-form-submit w-button" style="width:100%;"
+                    onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('I would like to get the Daily rental plan'), '_blank')">Book
+                    Now</button>
+                </div>
 
-                  <div class="plan-card" style="background:#0b1220; border:1px solid #00ffff; border-radius:12px; padding:2rem; width:300px;">
+                <div class="plan-card"
+                  style="background:#0b1220; border:1px solid #00ffff; border-radius:12px; padding:2rem; width:300px;">
                   <h3 class="heading-style-h4">Weekly Plan</h3>
                   <div class="price" style="font-size:2.5rem; color:#00ffff; margin:1rem 0;">
-                    ₹2,499<span style="font-size:1rem; color:#fff;">/week</span>
+                    ₹2,499<span style="font-size:1rem; color:#fff;">/Week</span>
                   </div>
                   <ul style="list-style:none; padding:0; margin:1.5rem 0;">
                     <li style="margin:0.75rem 0;">✓ Free delivery and pickup</li>
@@ -977,16 +900,20 @@ a,
                     <li style="margin:0.75rem 0;">✓ Extra controller ₹699</li>
                     <li style="margin:0.75rem 0;">✓ Extra game ₹349</li>
                   </ul>
-                  <button class="button is-form-submit w-button" style="width:100%;" onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('I would like to get the Weekly rental plan'), '_blank')">Book Now</button>
-                  </div>
+                  <button class="button is-form-submit w-button" style="width:100%;"
+                    onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('I would like to get the Weekly rental plan'), '_blank')">Book
+                    Now</button>
+                </div>
 
-                  <div class="plan-card highlighted" style="background:#0b1220; border:2px solid #00ffff; border-radius:12px; padding:2rem; width:300px; position:relative; overflow:hidden;">
-                  <div style="position:absolute; top:12px; right:-30px; background:#00ffff; color:#0b1220; padding:5px 40px; transform:rotate(45deg);">
+                <div class="plan-card highlighted"
+                  style="background:#0b1220; border:2px solid #00ffff; border-radius:12px; padding:2rem; width:300px; position:relative; overflow:hidden;">
+                  <div
+                    style="position:absolute; top:12px; right:-30px; background:#00ffff; color:#0b1220; padding:5px 40px; transform:rotate(45deg);">
                     Best Value
                   </div>
                   <h3 class="heading-style-h4">Monthly Plan</h3>
                   <div class="price" style="font-size:2.5rem; color:#00ffff; margin:1rem 0;">
-                    ₹8,999<span style="font-size:1rem; color:#fff;">/month</span>
+                    ₹8,999<span style="font-size:1rem; color:#fff;">/Month</span>
                   </div>
                   <ul style="list-style:none; padding:0; margin:1.5rem 0;">
                     <li style="margin:0.75rem 0;">✓ Free delivery and pickup</li>
@@ -994,28 +921,38 @@ a,
                     <li style="margin:0.75rem 0;">✓ FC25 / GTA 5 / WWE2K24</li>
                     <li style="margin:0.75rem 0;">✓ 5 free games of your choice</li>
                     <li style="margin:0.75rem 0;">✓ 24/7 support</li>
+                    <li class="mobileHide">&nbsp;</li>
+                    <li class="mobileHide">&nbsp;</li>
+                    <li class="mobileHide">&nbsp;</li>
+
                   </ul>
-                  <button class="button is-form-submit w-button" style="width:100%;" onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('I would like to get the Monthly rental plan'), '_blank')">Book Now</button>
-                  </div>
-
+                  <button class="button is-form-submit w-button" style="width:100%;"
+                    onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('I would like to get the Monthly rental plan'), '_blank')">Book
+                    Now</button>
                 </div>
 
-                <!-- Corporate Plans -->
-                 <div class="spacer-medium"></div>
-                 <div class="spacer-medium"></div>
-                <div class="header-wrapper">
-                  <h3 class="heading-style-h3">Corporate Plans</h3>
-                  <h4 class="heading-style-h4">Choose your <span style="color:#00ffff; margin:1rem 0;">6 month</span> gaming package with <span style="color:#00ffff; margin:1rem 0;">14 day</span> free trial</h4>
-                </div>
+              </div>
 
-                <div class="plans-container" style="display:flex; flex-wrap:wrap; justify-content:center; gap:2rem; padding:2rem 0;">
-                  
-                  <div class="plan-card" style="background:#0b1220; border:1px solid #00ffff; border-radius:12px; padding:2rem; width:300px;">
+              <!-- Corporate Plans -->
+              <div class="spacer-medium"></div>
+              <div class="spacer-medium"></div>
+              <div class="header-wrapper">
+                <h3 class="heading-style-h3">Corporate Plans</h3>
+                <h4 class="heading-style-h4">Choose your <span style="color:#00ffff; margin:1rem 0;">6 month</span>
+                  gaming package with <span style="color:#00ffff; margin:1rem 0;">14 day</span> free trial</h4>
+              </div>
+
+              <div class="plans-container"
+                style="display:flex; flex-wrap:wrap; justify-content:center; gap:2rem; padding:2rem 0;">
+
+                <div class="plan-card"
+                  style="background:#0b1220; border:1px solid #00ffff; border-radius:12px; padding:2rem; width:300px;">
                   <h3 class="heading-style-h4">Standard</h3>
                   <div class="price" style="font-size:2.5rem; color:#00ffff; margin:1rem 0;">
-                    ₹3,999 <span style="font-size:1rem; color:#fff;">/event</span>
+                    ₹3,999 <span style="font-size:1rem; color:#fff;">/Month</span>
                     <div style="font-size:0.95rem;margin-top:6px;">
-                      <s style="color:#ff6b6b; text-decoration-color:#ff6b6b; text-decoration-thickness:2px; font-weight:700; font-size:1rem; padding:4px 8px; background:rgba(255,107,107,0.06); border-radius:6px; display:inline-block;">
+                      <s
+                        style="color:#ff6b6b; text-decoration-color:#ff6b6b; text-decoration-thickness:2px; font-weight:700; font-size:1rem; padding:4px 8px; background:rgba(255,107,107,0.06); border-radius:6px; display:inline-block;">
                         ₹6,999
                       </s>
                     </div>
@@ -1027,15 +964,19 @@ a,
                     <li style="margin:0.75rem 0;">✓ On-site Support</li>
                   </ul>
                   <!-- <div style="font-size:0.9rem;color:#9effc7;margin-bottom:0.75rem;">*For 6 month plan</div> -->
-                  <button class="button is-form-submit w-button" style="width:100%;" onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('I would like to get a quote for the Corporate Standard package (₹3,999 / event)'), '_blank')">Book Now</button>
-                  </div>
+                  <button class="button is-form-submit w-button" style="width:100%;"
+                    onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('I would like to get a quote for the Corporate Standard package (₹3,999 / event)'), '_blank')">Book
+                    Now</button>
+                </div>
 
-                  <div class="plan-card" style="background:#0b1220; border:1px solid #00ffff; border-radius:12px; padding:2rem; width:300px;">
+                <div class="plan-card"
+                  style="background:#0b1220; border:1px solid #00ffff; border-radius:12px; padding:2rem; width:300px;">
                   <h3 class="heading-style-h4">Premium</h3>
                   <div class="price" style="font-size:2.5rem; color:#00ffff; margin:1rem 0;">
-                    ₹5,999 <span style="font-size:1rem; color:#fff;">/event</span>
+                    ₹5,999 <span style="font-size:1rem; color:#fff;">/Month</span>
                     <div style="font-size:0.95rem;margin-top:6px;">
-                      <s style="color:#ff6b6b; text-decoration-color:#ff6b6b; text-decoration-thickness:2px; font-weight:700; font-size:1rem; padding:4px 8px; background:rgba(255,107,107,0.06); border-radius:6px; display:inline-block;">
+                      <s
+                        style="color:#ff6b6b; text-decoration-color:#ff6b6b; text-decoration-thickness:2px; font-weight:700; font-size:1rem; padding:4px 8px; background:rgba(255,107,107,0.06); border-radius:6px; display:inline-block;">
                         ₹8,999
                       </s>
                     </div>
@@ -1047,18 +988,23 @@ a,
                     <li style="margin:0.75rem 0;">✓ On-site Support</li>
                   </ul>
                   <!-- <div style="font-size:0.9rem;color:#9effc7;margin-bottom:0.75rem;">*For 6 month plan</div> -->
-                  <button class="button is-form-submit w-button" style="width:100%;" onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('I would like to get a quote for the Corporate Premium package (₹5,999 / event)'), '_blank')">Book Now</button>
-                  </div>
+                  <button class="button is-form-submit w-button" style="width:100%;"
+                    onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('I would like to get a quote for the Corporate Premium package (₹5,999 / event)'), '_blank')">Book
+                    Now</button>
+                </div>
 
-                  <div class="plan-card highlighted" style="background:#0b1220; border:2px solid #00ffff; border-radius:12px; padding:2rem; width:300px; position:relative; overflow:hidden;">
-                  <div style="position:absolute; top:12px; right:-30px; background:#00ffff; color:#0b1220; padding:5px 40px; transform:rotate(45deg);">
+                <div class="plan-card highlighted"
+                  style="background:#0b1220; border:2px solid #00ffff; border-radius:12px; padding:2rem; width:300px; position:relative; overflow:hidden;">
+                  <div
+                    style="position:absolute; top:12px; right:-30px; background:#00ffff; color:#0b1220; padding:5px 40px; transform:rotate(45deg);">
                     Best Value
                   </div>
                   <h3 class="heading-style-h4">Elite</h3>
                   <div class="price" style="font-size:2.5rem; color:#00ffff; margin:1rem 0;">
-                    ₹6,999 <span style="font-size:1rem; color:#fff;">/event</span>
+                    ₹6,999 <span style="font-size:1rem; color:#fff;">/Month</span>
                     <div style="font-size:0.95rem;margin-top:6px;">
-                      <s style="color:#ff6b6b; text-decoration-color:#ff6b6b; text-decoration-thickness:2px; font-weight:700; font-size:1rem; padding:4px 8px; background:rgba(255,107,107,0.06); border-radius:6px; display:inline-block;">
+                      <s
+                        style="color:#ff6b6b; text-decoration-color:#ff6b6b; text-decoration-thickness:2px; font-weight:700; font-size:1rem; padding:4px 8px; background:rgba(255,107,107,0.06); border-radius:6px; display:inline-block;">
                         ₹11,999
                       </s>
                     </div>
@@ -1070,16 +1016,18 @@ a,
                     <li style="margin:0.75rem 0;">✓ On-site Support</li>
                   </ul>
                   <!-- <div style="font-size:0.9rem;color:#9effc7;margin-bottom:0.75rem;">*For 6 month plan</div> -->
-                  <button class="button is-form-submit w-button" style="width:100%;" onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('I would like to get a quote for the Corporate Elite package (₹6,999 / event) - 6 months plan'), '_blank')">Book Now</button>
-                  </div>
-
+                  <button class="button is-form-submit w-button" style="width:100%;"
+                    onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('I would like to get a quote for the Corporate Elite package (₹6,999 / event) - 6 months plan'), '_blank')">Book
+                    Now</button>
                 </div>
+
               </div>
             </div>
           </div>
-        </section>
-        
-        <!-- <div id="how-to" class="howto-section">
+        </div>
+      </section>
+
+      <!-- <div id="how-to" class="howto-section">
           <div class="padding-global">
             <div class="container-large">
               <div class="padding-vertical">
@@ -1198,418 +1146,289 @@ a,
           </div>
         </div> -->
 
-        <!-- CONSOLE SECTION -->
-        <section id="NFT" class="nft-section">
-            <div class="header-wrapper">
-            <h2 class="heading-style-h2">Popular Games</h2>
-            <h4 class="heading-style-h4">5000+ games available</h4>
-            </h4>
-            <br/><br/>
-            </div>
-            <div class="padding-medium"></div>
-            <div class="tricks-slider">
-            <div class="tricks-slider_slide">
-              <div class="tricks-slider_wrap">
-              <img
-                loading="lazy"
-                alt=""
-                sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
-                src="images/g1.JPG"
-                srcset="
+      <!-- CONSOLE SECTION -->
+      <section id="NFT" class="nft-section">
+        <div class="header-wrapper">
+          <h2 class="heading-style-h2">Popular Games</h2>
+          <h4 class="heading-style-h4">5000+ games available</h4>
+          </h4>
+          <br /><br />
+        </div>
+        <div class="padding-medium"></div>
+        <div class="tricks-slider">
+          <div class="tricks-slider_slide">
+            <div class="tricks-slider_wrap">
+              <img loading="lazy" alt="" sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
+                src="images/g1.JPG" srcset="
                 images/g1.JPG 500w,
                 images/g1.JPG 800w,
                 images/g1.JPG 1024w
-                "
-                class="image"
-              />
+                " class="image" />
               <div class="tricks-slider_flex"></div>
-              </div>
             </div>
-            <div class="tricks-slider_slide">
-              <div class="tricks-slider_wrap">
-              <img
-                loading="lazy"
-                alt=""
-                sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
-                src="images/g2.JPG"
-                srcset="
+          </div>
+          <div class="tricks-slider_slide">
+            <div class="tricks-slider_wrap">
+              <img loading="lazy" alt="" sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
+                src="images/g2.JPG" srcset="
                 images/g2.JPG 500w,
                 images/g2.JPG 800w,
                 images/g2.JPG 1024w
-                "
-                class="image"
-              />
+                " class="image" />
               <div class="tricks-slider_flex"></div>
-              </div>
             </div>
-            <div class="tricks-slider_slide">
-              <div class="tricks-slider_wrap">
-              <img
-                loading="lazy"
-                alt=""
-                sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
-                src="images/g3.JPG"
-                srcset="
+          </div>
+          <div class="tricks-slider_slide">
+            <div class="tricks-slider_wrap">
+              <img loading="lazy" alt="" sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
+                src="images/g3.JPG" srcset="
                 images/g3.JPG 500w,
                 images/g3.JPG 1024w
-                "
-                class="image"
-              />
+                " class="image" />
               <div class="tricks-slider_flex"></div>
-              </div>
             </div>
-            <div class="tricks-slider_slide">
-              <div class="tricks-slider_wrap">
-              <img
-                loading="lazy"
-                alt=""
-                sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
-                src="images/g4.JPG"
-                srcset="
+          </div>
+          <div class="tricks-slider_slide">
+            <div class="tricks-slider_wrap">
+              <img loading="lazy" alt="" sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
+                src="images/g4.JPG" srcset="
                 images/g4.JPG 500w,
                 images/g4.JPG 800w,
                 images/g4.JPG 1024w
-                "
-                class="image"
-              />
+                " class="image" />
               <div class="tricks-slider_flex"></div>
-              </div>
             </div>
-            <div class="tricks-slider_slide">
-              <div class="tricks-slider_wrap">
-              <img
-                loading="lazy"
-                alt=""
-                sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
-                src="images/g5.JPG"
-                srcset="
+          </div>
+          <div class="tricks-slider_slide">
+            <div class="tricks-slider_wrap">
+              <img loading="lazy" alt="" sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
+                src="images/g5.JPG" srcset="
                 images/g5.JPG 500w,
                 images/g5.JPG 800w,
                 images/g5.JPG 1024w
-                "
-                class="image"
-              />
+                " class="image" />
               <div class="tricks-slider_flex"></div>
-              </div>
             </div>
-            <div class="tricks-slider_slide">
-              <div class="tricks-slider_wrap">
-              <img
-                loading="lazy"
-                alt=""
-                sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
-                src="images/g6.JPG"
-                srcset="
+          </div>
+          <div class="tricks-slider_slide">
+            <div class="tricks-slider_wrap">
+              <img loading="lazy" alt="" sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
+                src="images/g6.JPG" srcset="
                 images/g6.JPG 500w,
                 images/g6.JPG 800w,
                 images/g6.JPG 1024w
-                "
-                class="image"
-              />
+                " class="image" />
               <div class="tricks-slider_flex"></div>
-              </div>
             </div>
-            <div class="tricks-slider_slide">
-              <div class="tricks-slider_wrap">
-              <img
-                loading="lazy"
-                alt=""
-                sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
-                src="images/g7.JPG"
-                srcset="
+          </div>
+          <div class="tricks-slider_slide">
+            <div class="tricks-slider_wrap">
+              <img loading="lazy" alt="" sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
+                src="images/g7.JPG" srcset="
                 images/g7.JPG 500w,
                 images/g7.JPG 800w,
                 images/g7.JPG 1024w
-                "
-                class="image"
-              />
+                " class="image" />
               <div class="tricks-slider_flex"></div>
-              </div>
             </div>
-            <div class="tricks-slider_slide">
-              <div class="tricks-slider_wrap">
-              <img
-                loading="lazy"
-                alt=""
-                sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
-                src="images/g8.JPG"
-                srcset="
+          </div>
+          <div class="tricks-slider_slide">
+            <div class="tricks-slider_wrap">
+              <img loading="lazy" alt="" sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
+                src="images/g8.JPG" srcset="
                 images/g8.JPG 500w,
                 images/g8.JPG 800w,
                 images/g8.JPG 1024w
-                "
-                class="image"
-              />
+                " class="image" />
               <div class="tricks-slider_flex"></div>
-              </div>
             </div>
-            <div class="tricks-slider_slide">
-              <div class="tricks-slider_wrap">
-              <img
-                loading="lazy"
-                alt=""
-                sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
-                src="images/g9.JPG"
-                srcset="
+          </div>
+          <div class="tricks-slider_slide">
+            <div class="tricks-slider_wrap">
+              <img loading="lazy" alt="" sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
+                src="images/g9.JPG" srcset="
                 images/g9.JPG 500w,
                 images/g9.JPG 800w,
                 images/g9.JPG 1024w
-                "
-                class="image"
-              />
+                " class="image" />
               <div class="tricks-slider_flex"></div>
-              </div>
             </div>
-            <div class="tricks-slider_slide">
-              <div class="tricks-slider_wrap">
-              <img
-                loading="lazy"
-                alt=""
-                sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
-                src="images/g10.JPG"
-                srcset="
+          </div>
+          <div class="tricks-slider_slide">
+            <div class="tricks-slider_wrap">
+              <img loading="lazy" alt="" sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
+                src="images/g10.JPG" srcset="
                 images/g10.JPG 500w,
                 images/g10.JPG 1024w
-                "
-                class="image"
-              />
+                " class="image" />
               <div class="tricks-slider_flex"></div>
-              </div>
             </div>
-            <div class="tricks-slider_slide">
-              <div class="tricks-slider_wrap">
-              <img
-                loading="lazy"
-                alt=""
-                sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
-                src="images/g11.JPG"
-                srcset="
+          </div>
+          <div class="tricks-slider_slide">
+            <div class="tricks-slider_wrap">
+              <img loading="lazy" alt="" sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
+                src="images/g11.JPG" srcset="
                 images/g11.JPG 500w,
                 images/g11.JPG 800w,
                 images/g11.JPG 1024w
-                "
-                class="image"
-              />
+                " class="image" />
               <div class="tricks-slider_flex"></div>
-              </div>
             </div>
-            <div class="tricks-slider_slide">
-              <div class="tricks-slider_wrap">
-              <img
-                loading="lazy"
-                alt=""
-                sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
-                src="images/g5.JPG"
-                srcset="
+          </div>
+          <div class="tricks-slider_slide">
+            <div class="tricks-slider_wrap">
+              <img loading="lazy" alt="" sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
+                src="images/g5.JPG" srcset="
                 images/g12.JPG 500w,
                 images/g12.JPG 800w,
                 images/g12.JPG 1024w
-                "
-                class="image"
-              />
+                " class="image" />
               <div class="tricks-slider_flex"></div>
-              </div>
             </div>
-            <div class="tricks-slider_slide">
-              <div class="tricks-slider_wrap">
-              <img
-                loading="lazy"
-                alt=""
-                sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
-                src="images/g13.jpg"
-                srcset="
+          </div>
+          <div class="tricks-slider_slide">
+            <div class="tricks-slider_wrap">
+              <img loading="lazy" alt="" sizes="(max-width: 479px) 100vw, (max-width: 991px) 77vw, 45vw"
+                src="images/g13.jpg" srcset="
                 images/g13.jpg 500w,
                 images/g13.jpg 800w,
                 images/g13.jpg 1024w
-                "
-                class="image"
-              />
+                " class="image" />
               <div class="tricks-slider_flex"></div>
+            </div>
+          </div>
+        </div>
+        <div class="progress">
+          <div class="progress_fill"></div>
+        </div>
+        <div class="padding-global"></div>
+        <div class="nft-content-wrapper">
+          <div class="header-wrapper">
+            <h4 class="heading-style-h4">
+              join aig community
+            </h4>
+            <div class="typed-words"></div>
+          </div>
+          <div class="nft_features-wrapper">
+            <div class="content-wrapper">
+              <p class="text-size-medium" style="padding-left: 2rem;">
+                Be part of Kerala&apos;s ultimate PlayStation squad!
+                Join our AI Gaming community to connect, compete, and unlock exclusive rewards.
+                Get early access to tournaments, special rental discounts, and members-only events.
+              </p>
+            </div>
+            <div class="content-wrapper">
+              <img src="images/games.webp" loading="lazy" width="592" alt=""
+                sizes="(max-width: 479px) 92vw, (max-width: 767px) 94vw, (max-width: 991px) 45vw, 40vw"
+                class="nft-img" />
+            </div>
+          </div>
+          <div class="padding-vertical">
+            <div class="content-wrapper">
+              <div class="header-icon-wrapper" style="padding-left: 2rem; text-wrap: nowrap;">
+                <img src="images/ps5C.png" loading="lazy" width="50" alt="PlayStation Controller" />
+                <h2 class="heading-style-h3">community Features</h2>
               </div>
-            </div>
-            </div>
-            <div class="progress">
-            <div class="progress_fill"></div>
-            </div>
-            <div class="padding-global"></div>
-            <div class="nft-content-wrapper">
-              <div class="header-wrapper">
-                <h4 class="heading-style-h4">
-                 join aig  community
+              <div class="subheading-wrapper" style="padding-left: 2rem;">
+                <h4 class="heading-style-h4 text-align-left padding-left-medium">
+                  Latest Games Library
                 </h4>
-                <div class="typed-words"></div>
-                </div>
-                <div class="nft_features-wrapper">
-                <div class="content-wrapper">
-                <p class="text-size-medium" style="padding-left: 2rem;">
-                  Be part of Kerala&apos;s ultimate PlayStation squad!
-Join our AI Gaming community to connect, compete, and unlock exclusive rewards.
-Get early access to tournaments, special rental discounts, and members-only events.
+                <p class="text-size-regular text-align-left">
+                  Access our extensive collection of the newest PS5 and PS4 games.
+                  From action-packed adventures to immersive sports titles, we regularly
+                  update our library with the latest releases to ensure you get the
+                  ultimate gaming experience.
                 </p>
               </div>
-              <div class="content-wrapper">
-                <img
-                src="images/games.webp"
-                loading="lazy"
-                    width="592"
-                    alt=""
-                    sizes="(max-width: 479px) 92vw, (max-width: 767px) 94vw, (max-width: 991px) 45vw, 40vw"
-                    class="nft-img"
-                  />
-                </div>
+              <div class="subheading-wrapper" style="padding-left: 2rem;">
+                <h4 class="heading-style-h4 text-align-left">
+                  Premium Gaming Setup
+                </h4>
+                <p class="text-size-regular text-align-left">
+                  Enjoy gaming on high-end 4K displays with surround sound systems.
+                  Our rental packages include DualSense controllers, racing wheels,
+                  and other accessories to enhance your gaming sessions. Perfect for
+                  parties, tournaments or solo gaming marathons.
+                </p>
               </div>
-                <div class="padding-vertical">
-                <div class="content-wrapper">
-                  <div class="header-icon-wrapper" style="padding-left: 2rem; text-wrap: nowrap;">
-                  <img
-                    src="images/ps5C.png" 
-                    loading="lazy"
-                    width="50"
-                    alt="PlayStation Controller"
-                  />
-                  <h2 class="heading-style-h3">community Features</h2>
-                  </div>
-                  <div class="subheading-wrapper" style="padding-left: 2rem;">
-                  <h4 class="heading-style-h4 text-align-left padding-left-medium">
-                    Latest Games Library
-                  </h4>
-                  <p class="text-size-regular text-align-left">
-                    Access our extensive collection of the newest PS5 and PS4 games. 
-                    From action-packed adventures to immersive sports titles, we regularly 
-                    update our library with the latest releases to ensure you get the 
-                    ultimate gaming experience.
-                  </p>
-                  </div>
-                  <div class="subheading-wrapper" style="padding-left: 2rem;">
-                  <h4 class="heading-style-h4 text-align-left">
-                    Premium Gaming Setup
-                  </h4>
-                  <p class="text-size-regular text-align-left">
-                    Enjoy gaming on high-end 4K displays with surround sound systems. 
-                    Our rental packages include DualSense controllers, racing wheels, 
-                    and other accessories to enhance your gaming sessions. Perfect for 
-                    parties, tournaments or solo gaming marathons.
-                  </p>
-                  </div>
-                </div>
-                </div>
             </div>
           </div>
-          <div class="moon-img"></div>
-          <div class="nft_footer-img"></div>
-        </section>
-        
-        <!-- EVENTS SECTION -->
-        <div id="roadmap" class="timeline-section">
-          <div class="section-timeline-heading">
-            <div class="container">
-              <div class="padding-vertical-xlarge">
-                <div class="timeline-main_heading-wrapper">
-                  <div class="margin-bottom-medium">
-                    <h2 class="heading-style-h2">events</h2>
-                  </div>
+        </div>
+        </div>
+        <div class="moon-img"></div>
+        <div class="nft_footer-img"></div>
+      </section>
+
+      <!-- EVENTS SECTION -->
+      <div id="roadmap" class="timeline-section">
+        <div class="section-timeline-heading">
+          <div class="container">
+            <div class="padding-vertical-xlarge">
+              <div class="timeline-main_heading-wrapper">
+                <div class="margin-bottom-medium">
+                  <h2 class="heading-style-h2">events</h2>
                 </div>
               </div>
             </div>
           </div>
-          <div class="section-timeline">
-            <div class="container">
+        </div>
+        <div class="section-timeline">
+          <div class="container">
 
-                <div class="timeline_component">
+            <div class="timeline_component">
 
-                <div class="timeline_progress">
-                  <div
-                  data-w-id="3df879dc-5fb5-6656-f871-6a9e6ddd61d0"
-                  class="timeline_progress-bar"
-                  ></div>
-                </div>
+              <div class="timeline_progress">
+                <div data-w-id="3df879dc-5fb5-6656-f871-6a9e6ddd61d0" class="timeline_progress-bar"></div>
+              </div>
 
-                <div
-                  data-w-id="3df879dc-5fb5-6656-f871-6a9e6ddd61d1"
-                  class="timeline_item"
-                >
-                  <div
-                  id="w-node-_3df879dc-5fb5-6656-f871-6a9e6ddd61d2-65a968e8"
-                  class="timeline_left"
-                  >
+              <div data-w-id="3df879dc-5fb5-6656-f871-6a9e6ddd61d1" class="timeline_item">
+                <div id="w-node-_3df879dc-5fb5-6656-f871-6a9e6ddd61d2-65a968e8" class="timeline_left">
                   <div class="timeline_date-text">31 May 2025</div>
-                  </div>
-                  <div
-                  id="w-node-_3df879dc-5fb5-6656-f871-6a9e6ddd61d5-65a968e8"
-                  class="timeline_centre"
-                  >
+                </div>
+                <div id="w-node-_3df879dc-5fb5-6656-f871-6a9e6ddd61d5-65a968e8" class="timeline_centre">
                   <div class="timeline_circle">
-                    <img
-                    src="https://example.com/path/to/gaming_event_icon.svg"
-                    loading="lazy"
-                    alt=""
-                    />
+                    <img src="https://example.com/path/to/gaming_event_icon.svg" loading="lazy" alt="" />
                   </div>
-                  </div>
-                  <div
-                  id="w-node-_3df879dc-5fb5-6656-f871-6a9e6ddd61d7-65a968e8"
-                  class="timeline_right"
-                  >
+                </div>
+                <div id="w-node-_3df879dc-5fb5-6656-f871-6a9e6ddd61d7-65a968e8" class="timeline_right">
                   <div class="timeline_image-wrapper">
-                    <img
-                    src="images/event3.jpeg"
-                    loading="lazy"
-                    width="480"
-                    alt="Gaming Event 1"
-                    />
+                    <img src="images/event3.jpeg" loading="lazy" width="480" alt="Gaming Event 1" />
                   </div>
                   <div class="timeline-content">
                     <div class="heading-style-h4">Epic Gaming Tournament</div>
                     <div class="text-size-regular">
-                      Our FC25 tournament brought together gamers from across India for a competitive and energetic football showdown. From clutch goals to intense final moments, the event showcased top-tier talent and pure passion for the game.
+                      Our FC25 tournament brought together gamers from across India for a competitive and energetic
+                      football showdown. From clutch goals to intense final moments, the event showcased top-tier talent
+                      and pure passion for the game.
                     </div>
                     <div class="text-color-neonblue">
                       128 players, 32 teams, thrilling matches.
                     </div>
                     <div class="spacer-xxsmall"></div>
-                    </div>
                   </div>
                 </div>
+              </div>
 
-                <div
-                  data-w-id="5ef814ef-3d16-3c85-e62d-7c57b1a10155"
-                  class="timeline_item"
-                >
-                  <div
-                  id="w-node-_5ef814ef-3d16-3c85-e62d-7c57b1a10156-65a968e8"
-                  class="timeline_left"
-                  >
+              <div data-w-id="5ef814ef-3d16-3c85-e62d-7c57b1a10155" class="timeline_item">
+                <div id="w-node-_5ef814ef-3d16-3c85-e62d-7c57b1a10156-65a968e8" class="timeline_left">
                   <div class="timeline_date-text">31 May 2025</div>
-                  </div>
-                  <div
-                  id="w-node-_5ef814ef-3d16-3c85-e62d-7c57b1a10159-65a968e8"
-                  class="timeline_centre"
-                  >
+                </div>
+                <div id="w-node-_5ef814ef-3d16-3c85-e62d-7c57b1a10159-65a968e8" class="timeline_centre">
                   <div class="timeline_circle">
-                    <img
-                    src="https://example.com/path/to/gaming_event_icon.svg"
-                    loading="lazy"
-                    alt=""
-                    />
+                    <img src="https://example.com/path/to/gaming_event_icon.svg" loading="lazy" alt="" />
                   </div>
-                  </div>
-                  <div
-                  id="w-node-_5ef814ef-3d16-3c85-e62d-7c57b1a1015c-65a968e8"
-                  class="timeline_right"
-                  >
+                </div>
+                <div id="w-node-_5ef814ef-3d16-3c85-e62d-7c57b1a1015c-65a968e8" class="timeline_right">
                   <div class="timeline_image-wrapper">
-                    <img
-                    src="images/event1.jpeg"
-                    loading="lazy"
-                    width="480"
-                    alt="Gaming Event 2"
-                    />
+                    <img src="images/event1.jpeg" loading="lazy" width="480" alt="Gaming Event 2" />
                   </div>
-                  
+
                   <div class="timeline-content">
                     <div class="heading-style-h4">Crowned the FC25 Championship</div>
                     <div class="text-size-regular">
-                      In an atmosphere filled with cheers, lights, and high energy, the final battle came down to precision and nerves of steel. The champion rose to the top, securing the title and the trophy with a performance that defined greatness.
+                      In an atmosphere filled with cheers, lights, and high energy, the final battle came down to
+                      precision and nerves of steel. The champion rose to the top, securing the title and the trophy
+                      with a performance that defined greatness.
                     </div>
                     <div class="spacer-xxsmall"></div>
                     <div class="text-color-neonblue">
@@ -1650,65 +1469,42 @@ Get early access to tournaments, special rental discounts, and members-only even
                     </p>
                     </a> -->
                   </div>
+                </div>
+              </div>
+
+              <div data-w-id="95a2981a-e949-cae4-73cf-a679ad1801cf" class="timeline_item">
+                <div id="w-node-_95a2981a-e949-cae4-73cf-a679ad1801d0-65a968e8" class="timeline_left">
+                  <div class="timeline_date-text">31 May 2025</div>
+                </div>
+                <div id="w-node-_95a2981a-e949-cae4-73cf-a679ad1801d3-65a968e8" class="timeline_centre">
+                  <div class="timeline_circle">
+                    <img src="https://example.com/path/to/gaming_event_icon.svg" loading="lazy" alt="" />
                   </div>
                 </div>
-
-                <div
-                  data-w-id="95a2981a-e949-cae4-73cf-a679ad1801cf"
-                  class="timeline_item"
-                >
-                  <div
-                  id="w-node-_95a2981a-e949-cae4-73cf-a679ad1801d0-65a968e8"
-                  class="timeline_left"
-                  >
-                  <div class="timeline_date-text">31 May 2025</div>
-                  </div>
-                  <div
-                  id="w-node-_95a2981a-e949-cae4-73cf-a679ad1801d3-65a968e8"
-                  class="timeline_centre"
-                  >
-                  <div class="timeline_circle">
-                    <img
-                    src="https://example.com/path/to/gaming_event_icon.svg"
-                    loading="lazy"
-                    alt=""
-                    />
-                  </div>
-                  </div>
-                  <div
-                  id="w-node-_95a2981a-e949-cae4-73cf-a679ad1801d6-65a968e8"
-                  class="timeline_right"
-                  >
+                <div id="w-node-_95a2981a-e949-cae4-73cf-a679ad1801d6-65a968e8" class="timeline_right">
                   <div class="timeline_image-wrapper">
-                    <img
-                    src="images/event2.jpeg"
-                    loading="lazy"
-                    width="480"
-                    alt="Gaming Event 3"
-                    srcset="
+                    <img src="images/event2.jpeg" loading="lazy" width="480" alt="Gaming Event 3" srcset="
                       images/event2.jpeg 500w,
                       images/event2.jpeg       786w
                     "
-                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 53vw, (max-width: 991px) 54vw, (max-width: 1439px) 37vw, 470px"
-                    />
+                      sizes="(max-width: 479px) 100vw, (max-width: 767px) 53vw, (max-width: 991px) 54vw, (max-width: 1439px) 37vw, 470px" />
                   </div>
                   <div class="timeline-content">
                     <div class="heading-style-h4">
-                    <strong>THE TEAM BEHIND THE VICTORY</strong>
+                      <strong>THE TEAM BEHIND THE VICTORY</strong>
                     </div>
                     <div class="text-size-regular">
-                      A team that worked with focus and unity to bring this event to life. Their hard work stands behind every highlight and every moment of success. This tournament was more than a competition—it was a collective effort. Each member of the team contributed with purpose and dedication, ensuring a seamless, engaging, and unforgettable experience for all participants and spectators.
+                      A team that worked with focus and unity to bring this event to life. Their hard work stands behind
+                      every highlight and every moment of success. This tournament was more than a competition—it was a
+                      collective effort. Each member of the team contributed with purpose and dedication, ensuring a
+                      seamless, engaging, and unforgettable experience for all participants and spectators.
                     </div>
                     <div class="text-color-neonblue">
-                    Don't miss out on future events!
+                      Don't miss out on future events!
                     </div>
                     <div class="spacer-xxsmall"></div>
-                    <a
-                    href="#"
-                    target="_blank"
-                    class="button-block-small w-inline-block"
-                    >
-                    <!-- <div class="button-small w-embed">
+                    <a href="#" target="_blank" class="button-block-small w-inline-block">
+                      <!-- <div class="button-small w-embed">
                       <svg
                       width="100%"
                       viewBox="0 0 166 50"
@@ -1738,76 +1534,78 @@ Get early access to tournaments, special rental discounts, and members-only even
                     </p> -->
                     </a>
                   </div>
-                  </div>
                 </div>
+              </div>
 
-                <div class="overlay-fade-bottom"></div>
-                <div class="overlay-fade-top"></div>
-                </div>
+              <div class="overlay-fade-bottom"></div>
+              <div class="overlay-fade-top"></div>
             </div>
           </div>
+        </div>
 
-          <!-- COUPON SECTION -->
-          <div
-            data-w-id="0b579f6a-f1c7-4e59-ba75-cc2d89e7401e"
-            class="section-timeline-cta"
-          >
+        <!-- COUPON SECTION -->
+        <div data-w-id="0b579f6a-f1c7-4e59-ba75-cc2d89e7401e" class="section-timeline-cta">
 
-            <div class="container">
-              <div class="padding-top-timelime">
-                <div
-                  style="opacity: 0.25"
-                  class="timeline-main_heading-wrapper"
-                >
-                  <div class="margin-bottom-medium">
-                    <div class="heading-style-h4" id="coupon">Got A Coupon?</div>
-                  </div>
-                  <div class="margin-bottom-small">
-                    <div
-                      data-w-id="bce024d7-5887-cc55-4c0c-a657c0747aef"
-                      style="color: rgb(255, 255, 255)"
-                      class="color-text"
-                    >
+          <div class="container">
+            <div class="padding-top-timelime">
+              <div style="opacity: 0.25" class="timeline-main_heading-wrapper">
+                <div class="margin-bottom-medium">
+                  <div class="heading-style-h4" id="coupon">Got A Coupon?</div>
+                </div>
+                <div class="margin-bottom-small">
+                  <div data-w-id="bce024d7-5887-cc55-4c0c-a657c0747aef" style="color: rgb(255, 255, 255)"
+                    class="color-text">
                     #Redeemhere
-                    </div>
                   </div>
-                  
-                  <div class="flex">
-                    <div class="spacer-horizontal-small">
-                      <form id="couponForm" class="form_form" novalidate style="align-items: center; justify-content: center;">
-                        <div class="form_field-wrapper" style="margin-left: auto; margin-right: auto;">
-                          <!-- <label for="coupon-name" class="form_label">Name*</label> -->
-                          <input id="coupon-name" name="name" type="text" maxlength="256" class="form_input w-input" placeholder="Your name*" required />
-                          <div id="err-name" class="error-message" style="color:#ff6b6b;font-size:0.9rem;display:none;" aria-live="polite"></div>
-                        </div>
+                </div>
 
-                        <div class="form_field-wrapper">
-                          <!-- <label for="coupon-phone" class="form_label">Phone*</label> -->
-                          <input id="coupon-phone" name="phone" type="tel" inputmode="tel" maxlength="20" class="form_input w-input" placeholder="Phone (digits only)*" required />
-                          <div id="err-phone" class="error-message" style="color:#ff6b6b;font-size:0.9rem;display:none;" aria-live="polite"></div>
-                        </div>
+                <div class="flex">
+                  <div class="spacer-horizontal-small">
+                    <form id="couponForm" class="form_form" novalidate
+                      style="align-items: center; justify-content: center;">
+                      <div class="form_field-wrapper" style="margin-left: auto; margin-right: auto;">
+                        <!-- <label for="coupon-name" class="form_label">Name*</label> -->
+                        <input id="coupon-name" name="name" type="text" maxlength="256" class="form_input w-input"
+                          placeholder="Your name*" required />
+                        <div id="err-name" class="error-message" style="color:#ff6b6b;font-size:0.9rem;display:none;"
+                          aria-live="polite"></div>
+                      </div>
 
-                        <div class="form_field-wrapper">
-                          <!-- <label for="coupon-email" class="form_label">email*</label> -->
-                          <input id="coupon-email" name="email" type="email" inputmode="email" maxlength="30" class="form_input w-input" placeholder="Email*" required />
-                          <div id="err-email" class="error-message" style="color:#ff6b6b;font-size:0.9rem;display:none;" aria-live="polite"></div>
-                        </div>
+                      <div class="form_field-wrapper">
+                        <!-- <label for="coupon-phone" class="form_label">Phone*</label> -->
+                        <input id="coupon-phone" name="phone" type="tel" inputmode="tel" maxlength="20"
+                          class="form_input w-input" placeholder="Phone (digits only)*" required />
+                        <div id="err-phone" class="error-message" style="color:#ff6b6b;font-size:0.9rem;display:none;"
+                          aria-live="polite"></div>
+                      </div>
 
-                        <div class="form_field-wrapper">
-                          <!-- <label for="coupon-location" class="form_label">Location*</label> -->
-                          <input id="coupon-location" name="location" type="text" maxlength="256" class="form_input w-input" placeholder="City / Area*" required />
-                          <div id="err-location" class="error-message" style="color:#ff6b6b;font-size:0.9rem;display:none;" aria-live="polite"></div>
-                        </div>
+                      <div class="form_field-wrapper">
+                        <!-- <label for="coupon-email" class="form_label">email*</label> -->
+                        <input id="coupon-email" name="email" type="email" inputmode="email" maxlength="30"
+                          class="form_input w-input" placeholder="Email*" required />
+                        <div id="err-email" class="error-message" style="color:#ff6b6b;font-size:0.9rem;display:none;"
+                          aria-live="polite"></div>
+                      </div>
 
-                        <div class="form_field-wrapper">
-                          <!-- <label for="coupon-code" class="form_label">Coupon*</label> -->
-                          <input id="coupon-code" name="coupon" type="text" maxlength="64" class="form_input w-input" placeholder="Enter your coupon code*" required />
-                          <div id="err-coupon" class="error-message" style="color:#ff6b6b;font-size:0.9rem;display:none;" aria-live="polite"></div>
-                        </div>
+                      <div class="form_field-wrapper">
+                        <!-- <label for="coupon-location" class="form_label">Location*</label> -->
+                        <input id="coupon-location" name="location" type="text" maxlength="256"
+                          class="form_input w-input" placeholder="City / Area*" required />
+                        <div id="err-location" class="error-message"
+                          style="color:#ff6b6b;font-size:0.9rem;display:none;" aria-live="polite"></div>
+                      </div>
 
-                        <div style="display:flex;gap:.5rem;align-items:center;text-align: center;">
-                  
-                          <!-- <a
+                      <div class="form_field-wrapper">
+                        <!-- <label for="coupon-code" class="form_label">Coupon*</label> -->
+                        <input id="coupon-code" name="coupon" type="text" maxlength="64" class="form_input w-input"
+                          placeholder="Enter your coupon code*" required />
+                        <div id="err-coupon" class="error-message" style="color:#ff6b6b;font-size:0.9rem;display:none;"
+                          aria-live="polite"></div>
+                      </div>
+
+                      <div style="display:flex;gap:.5rem;align-items:center;text-align: center;">
+
+                        <!-- <a
                     href="#"
                     target="_blank"
                     class="button-block-large w-inline-block"
@@ -1841,139 +1639,141 @@ Get early access to tournaments, special rental discounts, and members-only even
                       Redeem now
                     </p>
                   </a> -->
-                          <button id="coupon-submit" type="submit" class="button is-form-submit w-button text-center">Redeem</button>
-                          <div id="coupon-status" role="status" aria-live="polite" style="font-size:0.95rem;color:#00ffd6;"></div>
-                        </div>
-                      </form>
+                        <button id="coupon-submit" type="submit"
+                          class="button is-form-submit w-button text-center">Redeem</button>
+                        <div id="coupon-status" role="status" aria-live="polite"
+                          style="font-size:0.95rem;color:#00ffd6;"></div>
+                      </div>
+                    </form>
 
-                      <script>
-                        (function () {
-                          const form = document.getElementById('couponForm');
-                          const submitBtn = document.getElementById('coupon-submit');
-                          const statusEl = document.getElementById('coupon-status');
+                    <script>
+                      (function () {
+                        const form = document.getElementById('couponForm');
+                        const submitBtn = document.getElementById('coupon-submit');
+                        const statusEl = document.getElementById('coupon-status');
 
-                          const fields = {
-                            name: { el: document.getElementById('coupon-name'), err: document.getElementById('err-name') },
-                            phone: { el: document.getElementById('coupon-phone'), err: document.getElementById('err-phone') },
-                            email: { el: document.getElementById('coupon-email'), err: document.getElementById('err-email') },
-                            location: { el: document.getElementById('coupon-location'), err: document.getElementById('err-location') },
-                            coupon: { el: document.getElementById('coupon-code'), err: document.getElementById('err-coupon') },
-                          };
+                        const fields = {
+                          name: { el: document.getElementById('coupon-name'), err: document.getElementById('err-name') },
+                          phone: { el: document.getElementById('coupon-phone'), err: document.getElementById('err-phone') },
+                          email: { el: document.getElementById('coupon-email'), err: document.getElementById('err-email') },
+                          location: { el: document.getElementById('coupon-location'), err: document.getElementById('err-location') },
+                          coupon: { el: document.getElementById('coupon-code'), err: document.getElementById('err-coupon') },
+                        };
 
-                          function clearErrors() {
-                            Object.values(fields).forEach(f => {
-                              f.err.style.display = 'none';
-                              f.err.textContent = '';
-                            });
-                            statusEl.textContent = '';
-                            statusEl.style.color = '#00ffd6';
+                        function clearErrors() {
+                          Object.values(fields).forEach(f => {
+                            f.err.style.display = 'none';
+                            f.err.textContent = '';
+                          });
+                          statusEl.textContent = '';
+                          statusEl.style.color = '#00ffd6';
+                        }
+
+                        function validate() {
+                          clearErrors();
+                          let valid = true;
+                          const name = fields.name.el.value.trim();
+                          const phone = fields.phone.el.value.trim();
+                          const email = fields.email.el.value.trim();
+                          const location = fields.location.el.value.trim();
+                          const coupon = fields.coupon.el.value.trim();
+
+                          if (!name) {
+                            fields.name.err.textContent = 'Name is required.';
+                            fields.name.err.style.display = 'block';
+                            valid = false;
+                          }
+                          // basic phone validation: digits and length 7-15
+                          const phoneDigits = phone.replace(/\D/g, '');
+                          if (!phone || phoneDigits.length < 7 || phoneDigits.length > 15) {
+                            fields.phone.err.textContent = 'Enter a valid phone number (7-15 digits).';
+                            fields.phone.err.style.display = 'block';
+                            valid = false;
+                          }
+                          if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                            fields.email.err.textContent = 'Please enter a valid email address.';
+                            fields.email.err.style.display = 'block';
+                            valid = false;
+                          }
+                          if (!location) {
+                            fields.location.err.textContent = 'Location is required.';
+                            fields.location.err.style.display = 'block';
+                            valid = false;
+                          }
+                          if (!coupon) {
+                            fields.coupon.err.textContent = 'Coupon code is required.';
+                            fields.coupon.err.style.display = 'block';
+                            valid = false;
                           }
 
-                          function validate() {
-                            clearErrors();
-                            let valid = true;
-                            const name = fields.name.el.value.trim();
-                            const phone = fields.phone.el.value.trim();
-                            const email = fields.email.el.value.trim();
-                            const location = fields.location.el.value.trim();
-                            const coupon = fields.coupon.el.value.trim();
+                          return { valid, data: { name, phone: phoneDigits, email, location, coupon } };
+                        }
 
-                            if (!name) {
-                              fields.name.err.textContent = 'Name is required.';
-                              fields.name.err.style.display = 'block';
-                              valid = false;
-                            }
-                            // basic phone validation: digits and length 7-15
-                            const phoneDigits = phone.replace(/\D/g, '');
-                            if (!phone || phoneDigits.length < 7 || phoneDigits.length > 15) {
-                              fields.phone.err.textContent = 'Enter a valid phone number (7-15 digits).';
-                              fields.phone.err.style.display = 'block';
-                              valid = false;
-                            }
-                            if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-                              fields.email.err.textContent = 'Please enter a valid email address.';
-                              fields.email.err.style.display = 'block';
-                              valid = false;
-                            }
-                            if (!location) {
-                              fields.location.err.textContent = 'Location is required.';
-                              fields.location.err.style.display = 'block';
-                              valid = false;
-                            }
-                            if (!coupon) {
-                              fields.coupon.err.textContent = 'Coupon code is required.';
-                              fields.coupon.err.style.display = 'block';
-                              valid = false;
-                            }
-
-                            return { valid, data: { name, phone: phoneDigits, email, location, coupon } };
-                          }
-
-                          // Use readOnly to prevent editing (keeps native styling), and apply inline colors
-                          async function setDisabled(disabled) {
-                            Object.values(fields).forEach(f => {
-                              // prefer readonly so browser doesn't change the disabled styling to white/blurred
-                              f.el.readOnly = disabled;
-                              // enforce dark background + visible text while readonly to avoid white-on-white
-                              if (disabled) {
-                                f.el.style.backgroundColor = '#0b1220';
-                                f.el.style.color = '#ffffff';
-                                // slightly reduce opacity if you want a "disabled" look without hiding text
-                                f.el.style.opacity = '0.95';
-                                // keep cursor visible but prevent input
-                                f.el.style.cursor = 'default';
-                              } else {
-                                // restore to stylesheet defaults by clearing inline styles
-                                f.el.style.backgroundColor = '';
-                                f.el.style.color = '';
-                                f.el.style.opacity = '';
-                                f.el.style.cursor = '';
-                                f.el.readOnly = false;
-                              }
-                            });
-                            submitBtn.disabled = disabled;
-                            submitBtn.style.opacity = disabled ? '0.6' : '';
-                          }
-
-                          form.addEventListener('submit', async (ev) => {
-                            ev.preventDefault();
-                            const { valid, data } = validate();
-                            if (!valid) return;
-
-                            try {
-                              await setDisabled(true);
-                              statusEl.style.color = '#00ffd6';
-                              statusEl.textContent = 'Submitting...';
-
-                              const res = await fetch('https://aigaming.app.n8n.cloud/webhook/coupon-redeem', {
-                                method: 'POST',
-                                headers: { 'Content-Type': 'application/json' },
-                                body: JSON.stringify(data),
-                              });
-
-                              if (!res.ok) {
-                                const text = await res.text().catch(() => '');
-                                statusEl.style.color = '#ff6b6b';
-                                statusEl.textContent = 'Submission failed' + (text ? ': ' + text : '.');
-                              } else {
-                                statusEl.style.color = '#9effc7';
-                                statusEl.textContent = 'Coupon submitted successfully!';
-                                setTimeout(() => {
-                                  statusEl.textContent = '';
-                                }, 5000);
-                                form.reset();
-                              }
-                            } catch (err) {
-                              statusEl.style.color = '#ff6b6b';
-                              statusEl.textContent = 'Network error. Please try again.';
-                            } finally {
-                              await setDisabled(false);
+                        // Use readOnly to prevent editing (keeps native styling), and apply inline colors
+                        async function setDisabled(disabled) {
+                          Object.values(fields).forEach(f => {
+                            // prefer readonly so browser doesn't change the disabled styling to white/blurred
+                            f.el.readOnly = disabled;
+                            // enforce dark background + visible text while readonly to avoid white-on-white
+                            if (disabled) {
+                              f.el.style.backgroundColor = '#0b1220';
+                              f.el.style.color = '#ffffff';
+                              // slightly reduce opacity if you want a "disabled" look without hiding text
+                              f.el.style.opacity = '0.95';
+                              // keep cursor visible but prevent input
+                              f.el.style.cursor = 'default';
+                            } else {
+                              // restore to stylesheet defaults by clearing inline styles
+                              f.el.style.backgroundColor = '';
+                              f.el.style.color = '';
+                              f.el.style.opacity = '';
+                              f.el.style.cursor = '';
+                              f.el.readOnly = false;
                             }
                           });
-                        })();
-                      </script>
+                          submitBtn.disabled = disabled;
+                          submitBtn.style.opacity = disabled ? '0.6' : '';
+                        }
+
+                        form.addEventListener('submit', async (ev) => {
+                          ev.preventDefault();
+                          const { valid, data } = validate();
+                          if (!valid) return;
+
+                          try {
+                            await setDisabled(true);
+                            statusEl.style.color = '#00ffd6';
+                            statusEl.textContent = 'Submitting...';
+
+                            const res = await fetch('https://aigaming.app.n8n.cloud/webhook/coupon-redeem', {
+                              method: 'POST',
+                              headers: { 'Content-Type': 'application/json' },
+                              body: JSON.stringify(data),
+                            });
+
+                            if (!res.ok) {
+                              const text = await res.text().catch(() => '');
+                              statusEl.style.color = '#ff6b6b';
+                              statusEl.textContent = 'Submission failed' + (text ? ': ' + text : '.');
+                            } else {
+                              statusEl.style.color = '#9effc7';
+                              statusEl.textContent = 'Coupon submitted successfully!';
+                              setTimeout(() => {
+                                statusEl.textContent = '';
+                              }, 5000);
+                              form.reset();
+                            }
+                          } catch (err) {
+                            statusEl.style.color = '#ff6b6b';
+                            statusEl.textContent = 'Network error. Please try again.';
+                          } finally {
+                            await setDisabled(false);
+                          }
+                        });
+                      })();
+                    </script>
                   </div>
-                  
+
                 </div>
               </div>
             </div>
@@ -1987,61 +1787,34 @@ Get early access to tournaments, special rental discounts, and members-only even
                 <div class="header_text-wrap">
                   <div class="header_text-move">
                     <div class="arrow-pixel w-embed">
-                      <svg
-                        width="100%"
-                        viewBox="0 0 20 36"
-                        fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
+                      <svg width="100%" viewBox="0 0 20 36" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path
                           d="M19.5498 24.373L0.539291 24.373L0.539291 26.3619L2.26722 26.3619L2.26722 28.0898L3.99515 28.0898L3.99515 29.8194L5.72309 29.8194L5.72309 31.5473L7.45102 31.5473L7.45102 33.2785L9.17895 33.2785L9.17895 33.2752L9.17895 35.0015L10.9101 35.0015L10.9101 33.2769L12.6381 33.2769L12.6381 31.5457L14.366 31.5457L14.366 29.8177L16.0956 29.8177L16.0956 28.0898L17.8235 28.0898L17.8235 26.3619L19.5498 26.3619L19.5498 24.373Z"
-                          fill="currentColor"
-                        />
+                          fill="currentColor" />
                         <path
                           d="M19.5498 12.1855L0.539291 12.1855L0.539291 14.1744L2.26722 14.1744L2.26722 15.9023L3.99515 15.9023L3.99515 17.6319L5.72309 17.6319L5.72309 19.3598L7.45102 19.3598L7.45102 21.091L9.17895 21.091L9.17895 21.0877L9.17895 22.814L10.9101 22.814L10.9101 21.0894L12.6381 21.0894L12.6381 19.3582L14.366 19.3582L14.366 17.6302L16.0956 17.6302L16.0956 15.9023L17.8235 15.9023L17.8235 14.1744L19.5498 14.1744L19.5498 12.1855Z"
-                          fill="currentColor"
-                        />
+                          fill="currentColor" />
                         <path
                           d="M19.5498 0L0.539291 -8.30976e-07L0.539291 1.98884L2.26722 1.98884L2.26722 3.71677L3.99515 3.71677L3.99515 5.44633L5.72309 5.44633L5.72309 7.17426L7.45102 7.17426L7.45102 8.90546L9.17895 8.90546L9.17895 8.90219L9.17895 10.6285L10.9101 10.6285L10.9101 8.90383L12.6381 8.90383L12.6381 7.17263L14.366 7.17263L14.366 5.4447L16.0956 5.4447L16.0956 3.71677L17.8235 3.71677L17.8235 1.98884L19.5498 1.98884L19.5498 0Z"
-                          fill="currentColor"
-                        />
+                          fill="currentColor" />
                       </svg>
                     </div>
                     <div class="form_component w-form">
-                      <form
-                        id="wf-form-Form"
-                        name="wf-form-Form"
-                        data-name="Form"
-                        method="get"
-                        class="form_form"
+                      <form id="wf-form-Form" name="wf-form-Form" data-name="Form" method="get" class="form_form"
                         data-wf-page-id="645f0a04255d0d8665a968e8"
-                        data-wf-element-id="c39afae7-d3a4-b347-75a7-06b249ef45b5"
-                      >
+                        data-wf-element-id="c39afae7-d3a4-b347-75a7-06b249ef45b5">
                         <div class="form_field-wrapper">
-                          <label for="Wallet-Address" class="form_label"
-                            >Enter your Email</label
-                          >
-                          <input
-                            class="form_input w-input"
-                            maxlength="256"
-                            name="Wallet-Address" 
-                            data-name="Wallet Address"
-                            placeholder="Enter your Email"
-                            type="email"
-                            id="Wallet-Address"
-                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-                            title="Please enter a valid email address"
-                            required
-                          />
+                          <label for="Wallet-Address" class="form_label">Enter your Email</label>
+                          <input class="form_input w-input" maxlength="256" name="Wallet-Address"
+                            data-name="Wallet Address" placeholder="Enter your Email" type="email" id="Wallet-Address"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address"
+                            required />
                         </div>
-                        <input
-                          type="submit"
-                          data-wait="Please wait..."
-                          class="button is-form-submit w-button"
-                          value="Submit"
-                        />
+                        <input type="submit" data-wait="Please wait..." class="button is-form-submit w-button"
+                          value="Submit" />
                       </form>
-                      <div class="form_message-success w-form-done" style="background:#0b1220;color:#00ffd6;padding:.75rem 1rem;border-radius:6px;">
+                      <div class="form_message-success w-form-done"
+                        style="background:#0b1220;color:#00ffd6;padding:.75rem 1rem;border-radius:6px;">
                         <div role="status" aria-live="polite" style="color:inherit;">
                           Thank you! Your submission has been received!
                         </div>
@@ -2060,31 +1833,17 @@ Get early access to tournaments, special rental discounts, and members-only even
                   <div
                     data-poster-url="https://cdn.prod.website-files.com/645f0a04255d0d8665a9685b/6461253cdea363a679a07c6b_Rocketcrate_silver-poster-00001.jpg"
                     data-video-urls="https://cdn.prod.website-files.com/645f0a04255d0d8665a9685b/6461253cdea363a679a07c6b_Rocketcrate_silver-transcode.mp4,https://cdn.prod.website-files.com/645f0a04255d0d8665a9685b/6461253cdea363a679a07c6b_Rocketcrate_silver-transcode.webm"
-                    data-autoplay="true"
-                    data-loop="true"
-                    data-wf-ignore="true"
-                    class="sticky-circle_vid w-background-video w-background-video-atom"
-                  >
-                    <video
-                      id="a4e0d2d0-fb48-919d-b60a-5de011cf7371-video"
-                      autoplay=""
-                      loop=""
-                      style="
+                    data-autoplay="true" data-loop="true" data-wf-ignore="true"
+                    class="sticky-circle_vid w-background-video w-background-video-atom">
+                    <video id="a4e0d2d0-fb48-919d-b60a-5de011cf7371-video" autoplay="" loop="" style="
                         background-image: url(_https_/cdn.prod.website-files.com/645f0a04255d0d8665a9685b/6461253cdea363a679a07c6b_Rocketcrate_silver-poster-00001.html);
-                      "
-                      muted=""
-                      playsinline=""
-                      data-wf-ignore="true"
-                      data-object-fit="cover"
-                    >
+                      " muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
                       <source
                         src="https://cdn.prod.website-files.com/645f0a04255d0d8665a9685b/6461253cdea363a679a07c6b_Rocketcrate_silver-transcode.mp4"
-                        data-wf-ignore="true"
-                      />
+                        data-wf-ignore="true" />
                       <source
                         src="https://cdn.prod.website-files.com/645f0a04255d0d8665a9685b/6461253cdea363a679a07c6b_Rocketcrate_silver-transcode.webm"
-                        data-wf-ignore="true"
-                      />
+                        data-wf-ignore="true" />
                     </video>
                   </div>
                 </div>
@@ -2094,32 +1853,141 @@ Get early access to tournaments, special rental discounts, and members-only even
         </section>
 
         <!-- FOOTER -->
-        <footer class="section-footer" style="background:#071026;color:#e6f7ff;padding:3rem 1rem;border-top:1px solid rgba(0,255,255,0.06);">
+        <footer class="section-footer"
+          style="background:#071026;color:#e6f7ff;padding:3rem 1rem;border-top:1px solid rgba(0,255,255,0.06);">
           <style>
-            .footer-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;align-items:start;}
-            .footer-brand{display:flex;flex-direction:column;gap:.75rem}
-            .footer-brand .logo{font-weight:900;color:#00ffff;font-size:1.35rem;letter-spacing:.08em}
-            .footer-brand p{color:rgba(230,247,255,0.85);line-height:1.5;margin:0}
-            .footer-section h4{color:#c9f8ff;margin:0 0 .5rem 0;font-size:1rem}
-            .footer-links ul,
-            .footer-services ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.45rem}
-            .footer-links a{color:rgba(230,247,255,0.9);text-decoration:none;opacity:0.95}
-            .footer-links a:hover{color:#00ffff}
-            .contact-details p{margin:.25rem 0;color:rgba(230,247,255,0.85)}
-            .social-row{display:flex;gap:.6rem;align-items:center;margin-top:.5rem}
-            .social-btn{display:inline-flex;width:40px;height:40px;align-items:center;justify-content:center;background:rgba(255,255,255,0.04);border-radius:8px;border:1px solid rgba(255,255,255,0.03);transition:all .18s}
-            .social-btn svg{display:block}
-            .social-btn:hover{transform:translateY(-3px);box-shadow:0 6px 18px rgba(0,255,255,0.06);background:rgba(0,255,255,0.04)}
-            .footer-bottom{ text-align: center; border-top:1px solid rgba(255,255,255,0.03);padding-top:1rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;color:rgba(230,247,255,0.7);font-size:.95rem}
-            .footer-legal{display:flex;gap:1rem;align-items:center}
-            /* Responsive */
-            @media (max-width: 991px){
-              .footer-inner{grid-template-columns:repeat(2,1fr)}
+            .footer-inner {
+              max-width: 1200px;
+              margin: 0 auto;
+              display: grid;
+              grid-template-columns: repeat(4, 1fr);
+              gap: 1.5rem;
+              align-items: start;
             }
-            @media (max-width: 599px){
-              .footer-inner{grid-template-columns:1fr;gap:1rem; position: absolute; top: 3rem;}
-              .footer-bottom{flex-direction:column;align-items: center;gap:.6rem;}
-              .footer-links ul {flex-direction:row;flex-wrap:wrap;gap:1rem}
+
+            .footer-brand {
+              display: flex;
+              flex-direction: column;
+              gap: .75rem
+            }
+
+            .footer-brand .logo {
+              font-weight: 900;
+              color: #00ffff;
+              font-size: 1.35rem;
+              letter-spacing: .08em
+            }
+
+            .footer-brand p {
+              color: rgba(230, 247, 255, 0.85);
+              line-height: 1.5;
+              margin: 0
+            }
+
+            .footer-section h4 {
+              color: #c9f8ff;
+              margin: 0 0 .5rem 0;
+              font-size: 1rem
+            }
+
+            .footer-links ul,
+            .footer-services ul {
+              list-style: none;
+              padding: 0;
+              margin: 0;
+              display: flex;
+              flex-direction: column;
+              gap: .45rem
+            }
+
+            .footer-links a {
+              color: rgba(230, 247, 255, 0.9);
+              text-decoration: none;
+              opacity: 0.95
+            }
+
+            .footer-links a:hover {
+              color: #00ffff
+            }
+
+            .contact-details p {
+              margin: .25rem 0;
+              color: rgba(230, 247, 255, 0.85)
+            }
+
+            .social-row {
+              display: flex;
+              gap: .6rem;
+              align-items: center;
+              margin-top: .5rem
+            }
+
+            .social-btn {
+              display: inline-flex;
+              width: 40px;
+              height: 40px;
+              align-items: center;
+              justify-content: center;
+              background: rgba(255, 255, 255, 0.04);
+              border-radius: 8px;
+              border: 1px solid rgba(255, 255, 255, 0.03);
+              transition: all .18s
+            }
+
+            .social-btn svg {
+              display: block
+            }
+
+            .social-btn:hover {
+              transform: translateY(-3px);
+              box-shadow: 0 6px 18px rgba(0, 255, 255, 0.06);
+              background: rgba(0, 255, 255, 0.04)
+            }
+
+            .footer-bottom {
+              text-align: center;
+              border-top: 1px solid rgba(255, 255, 255, 0.03);
+              padding-top: 1rem;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              flex-wrap: wrap;
+              color: rgba(230, 247, 255, 0.7);
+              font-size: .95rem
+            }
+
+            .footer-legal {
+              display: flex;
+              gap: 1rem;
+              align-items: center
+            }
+
+            /* Responsive */
+            @media (max-width: 991px) {
+              .footer-inner {
+                grid-template-columns: repeat(2, 1fr)
+              }
+            }
+
+            @media (max-width: 599px) {
+              .footer-inner {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+                position: absolute;
+                top: 3rem;
+              }
+
+              .footer-bottom {
+                flex-direction: column;
+                align-items: center;
+                gap: .6rem;
+              }
+
+              .footer-links ul {
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 1rem
+              }
             }
           </style>
 
@@ -2128,15 +1996,24 @@ Get early access to tournaments, special rental discounts, and members-only even
             <div class="footer-brand" aria-label="About AI Gaming">
               <img src="images/logo.png" alt="AI Gaming Logo" width="140" style="margin-bottom: 1rem;" />
               <p>
-          Your one-stop gaming destination for premium console rentals, accessories and events. Immerse in quality gaming experiences — delivered and supported.
+                Your one-stop gaming destination for premium console rentals, accessories and events. Immerse in quality
+                gaming experiences — delivered and supported.
               </p>
             </div>
 
             <style>
               @media (min-width: 992px) {
-                .footer-links { text-align: center; }
+                .footer-links {
+                  text-align: center;
+                }
+
                 /* keep the links stacked but centered as a group */
-                .footer-links ul { display: inline-block; padding-left: 0; margin: 0; text-align: left; }
+                .footer-links ul {
+                  display: inline-block;
+                  padding-left: 0;
+                  margin: 0;
+                  text-align: left;
+                }
               }
             </style>
 
@@ -2150,27 +2027,31 @@ Get early access to tournaments, special rental discounts, and members-only even
                 <li><a href="#coupon">Coupon</a></li>
               </ul>
             </div>
-            
+
             <div class="footer-section footer-services" aria-label="Services">
               <h4>Services</h4>
               <ul>
-          <li>Console Rentals</li>
-          <li>Corporate Gaming Subscriptions</li>
-          <li>Tournaments & Event Hosting</li>
-          <li>Esports Community Programs</li>
+                <li>Console Rentals</li>
+                <li>Corporate Gaming Subscriptions</li>
+                <li>Tournaments & Event Hosting</li>
+                <li>Esports Community Programs</li>
               </ul>
             </div>
-            
+
             <div class="footer-section contact-details" aria-label="Contact Details">
               <h4>Contact</h4>
-              <p>Phone: <a href="tel:+919497001150" style="color:#00ffd6;text-decoration:none;">+91  9497 00 11 50</a></p>
-              <p>Email: <a href="mailto:info@aigaming.com" style="color:#00ffd6;text-decoration:none;">mail@aiminfinitegaming.com</a></p>
+              <p>Phone: <a href="tel:+919497001150" style="color:#00ffd6;text-decoration:none;">+91 9497 00 11 50</a>
+              </p>
+              <p>Email: <a href="mailto:info@aigaming.com"
+                  style="color:#00ffd6;text-decoration:none;">mail@aiminfinitegaming.com</a></p>
               <p>Address: Ashokapuram, Kozhikode</p>
-              
+
               <div class="social-row" aria-label="Social links">
-              
-                <a class="social-btn" href="https://wa.me/9497001150" target="_blank" rel="noopener" aria-label="WhatsApp">
-                  <svg fill="#FFFFFF" width="24px" height="24px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+                <a class="social-btn" href="https://wa.me/9497001150" target="_blank" rel="noopener"
+                  aria-label="WhatsApp">
+                  <svg fill="#FFFFFF" width="24px" height="24px" viewBox="0 0 32 32" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg">
                     <title>whatsapp</title>
                     <path
                       d="M26.576 5.363c-2.69-2.69-6.406-4.354-10.511-4.354-8.209 0-14.865 6.655-14.865 14.865 0 2.732 0.737 5.291 2.022 7.491l-0.038-0.070-2.109 7.702 7.879-2.067c2.051 1.139 4.498 1.809 7.102 1.809h0.006c8.209-0.003 14.862-6.659 14.862-14.868 0-4.103-1.662-7.817-4.349-10.507l0 0zM16.062 28.228h-0.005c-0 0-0.001 0-0.001 0-2.319 0-4.489-0.64-6.342-1.753l0.056 0.031-0.451-0.267-4.675 1.227 1.247-4.559-0.294-0.467c-1.185-1.862-1.889-4.131-1.889-6.565 0-6.822 5.531-12.353 12.353-12.353s12.353 5.531 12.353 12.353c0 6.822-5.53 12.353-12.353 12.353h-0zM22.838 18.977c-0.371-0.186-2.197-1.083-2.537-1.208-0.341-0.124-0.589-0.185-0.837 0.187-0.246 0.371-0.958 1.207-1.175 1.455-0.216 0.249-0.434 0.279-0.805 0.094-1.15-0.466-2.138-1.087-2.997-1.852l0.010 0.009c-0.799-0.74-1.484-1.587-2.037-2.521l-0.028-0.052c-0.216-0.371-0.023-0.572 0.162-0.757 0.167-0.166 0.372-0.434 0.557-0.65 0.146-0.179 0.271-0.384 0.366-0.604l0.006-0.017c0.043-0.087 0.068-0.188 0.068-0.296 0-0.131-0.037-0.253-0.101-0.357l0.002 0.003c-0.094-0.186-0.836-2.014-1.145-2.758-0.302-0.724-0.609-0.625-0.836-0.637-0.216-0.010-0.464-0.012-0.712-0.012-0.395 0.010-0.746 0.188-0.988 0.463l-0.001 0.002c-0.802 0.761-1.3 1.834-1.3 3.023 0 0.026 0 0.053 0.001 0.079l-0-0.004c0.131 1.467 0.681 2.784 1.527 3.857l-0.012-0.015c1.604 2.379 3.742 4.282 6.251 5.564l0.094 0.043c0.548 0.248 1.25 0.513 1.968 0.74l0.149 0.041c0.442 0.14 0.951 0.221 1.479 0.221 0.303 0 0.601-0.027 0.889-0.078l-0.031 0.004c1.069-0.223 1.956-0.868 2.497-1.749l0.009-0.017c0.165-0.366 0.261-0.793 0.261-1.242 0-0.185-0.016-0.366-0.047-0.542l0.003 0.019c-0.092-0.155-0.34-0.247-0.712-0.434z">
@@ -2191,176 +2072,182 @@ Get early access to tournaments, special rental discounts, and members-only even
                       fill="#FFFFFF" />
                   </svg>
                 </a>
-              
+
               </div>
             </div>
-            
+
             <div class="footer-bottom" role="note">
               <div class="footer-legal">
                 <div>© 2025 AI Gaming</div>
                 <div style="opacity:.75">All Rights Reserved</div>
               </div>
-              <div style="opacity:.8">Support: <a href="mailto:mail@aiminfinitegaming.com" style="color:#00ffd6;text-decoration:none;">mail@aiminfinitegaming.com</a></div>
+              <div style="opacity:.8">Support: <a href="mailto:mail@aiminfinitegaming.com"
+                  style="color:#00ffd6;text-decoration:none;">mail@aiminfinitegaming.com</a></div>
             </div>
 
           </div>
 
         </footer>
-        </div>
-      </main>
-    </article>
+      </div>
+    </main>
+  </article>
 
-    <script
-      src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=645f0a04255d0d8665a9685b"
-      type="text/javascript"
-      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://assets.website-files.com/645f0a04255d0d8665a9685b/js/webflow.17c52715c.js"
-      type="text/javascript"
-    ></script>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script>
-      let mainCarousel = ".tricks-slider";
-      let mainSlides = ".tricks-slider_slide";
-      let parallaxAmount = 49;
-      let verticalAmount = 60;
-      let rotationAmount = 6;
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=645f0a04255d0d8665a9685b"
+    type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+  <script src="https://assets.website-files.com/645f0a04255d0d8665a9685b/js/webflow.17c52715c.js"
+    type="text/javascript"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script>
+    let mainCarousel = ".tricks-slider";
+    let mainSlides = ".tricks-slider_slide";
+    let parallaxAmount = 49;
+    let verticalAmount = 60;
+    let rotationAmount = 6;
 
-      let flkty = new Flickity(mainCarousel, {
-        // contain: true,
-        freeScroll: false,
-        draggable: false,
-        accessibitiy: false,
-        percentPosition: true,
-        pageDots: false,
-        cellSelector: mainSlides,
-        cellAlign: "center",
-        wrapAround: true,
-        resize: true,
-        autoPlay: 1400,
-        pauseAutoPlayOnHover: false,
-        selectedAttraction: 0.01,
-        dragThreshold: 1,
-        freeScrollFriction: 0.05,
-      });
+    let flkty = new Flickity(mainCarousel, {
+      cellSelector: mainSlides,
+      cellAlign: "center",
+      wrapAround: true,
+      pageDots: false,
+      draggable: true, // allow mobile drag
+      accessibility: false,
+      autoPlay: 1400, // continues automatically
+      pauseAutoPlayOnHover: false,
+      selectedAttraction: 0.015, // smoother acceleration
+      friction: 0.25, // smoother deceleration
+      freeScroll: false,
+      dragThreshold: 5,
+      prevNextButtons: false,
+    });
 
-      flkty.on("scroll", function (progress) {
-        setImagePositions();
-        $(".progress_fill").css("width", `${progress * 100}%`);
-      });
-
-      function setImagePositions() {
-        $(mainSlides).each(function (index) {
-          let targetElement = $(this);
-
-          // Progress Left
-          let elementOffsetLeft =
-            targetElement.offset().left +
-            targetElement.width() -
-            $(mainCarousel).offset().left;
-          let progressLeft =
-            elementOffsetLeft /
-            ($(mainCarousel).width() + targetElement.width());
-          // Progress Center
-          let elementOffsetCenter =
-            targetElement.offset().left +
-            targetElement.width() / 2 -
-            $(mainCarousel).width() / 2;
-          let parentWidth = $(mainCarousel).width() + targetElement.width();
-          let progressCenter = elementOffsetCenter / parentWidth;
-          // Progress Center invert
-          let progressCenterInvert = progressCenter;
-          if (progressCenterInvert < 0) {
-            progressCenterInvert = progressCenterInvert * -1;
-          }
-
-          // Image Move Distance
-          let imageMoveDistance = parallaxAmount * progressLeft;
-          if (imageMoveDistance > parallaxAmount) {
-            imageMoveDistance = parallaxAmount;
-          } else if (imageMoveDistance < 0) {
-            imageMoveDistance = 0;
-          }
-
-          targetElement
-            .find(".image")
-            .css("transform", `translateX(-${imageMoveDistance}%)`);
-          targetElement
-            .find(".tricks-slider_wrap")
-            .css(
-              "transform",
-              `translateY(${verticalAmount * progressCenter}%) rotate(${
-                rotationAmount * progressCenter
-              }deg)`
-            );
-        });
-      }
+    // --- Smoother scroll effect ---
+    flkty.on("scroll", function (progress) {
       setImagePositions();
-    </script>
+      $(".progress_fill").css("width", `${progress * 100}%`);
+    });
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    function setImagePositions() {
+      $(mainSlides).each(function (index) {
+        let targetElement = $(this);
 
-    <script>
-      var typed = new Typed(".typed-words", {
-        strings: [
-          "Unlock Exclusive Rewards",
-          "Priority Customer Support",
-          "Access to Exclusive Events",
-        ],
-        typeSpeed: 75,
-        backSpeed: 50,
-        backDelay: 800,
-        startDelay: 500,
-        loop: true,
-        showCursor: false,
-        cursorChar: "|",
-        attr: null,
-      });
-    </script>
+        let elementOffsetLeft =
+          targetElement.offset().left +
+          targetElement.width() -
+          $(mainCarousel).offset().left;
+        let progressLeft =
+          elementOffsetLeft /
+          ($(mainCarousel).width() + targetElement.width());
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
-    <script>
-      gsap.registerPlugin(ScrollTrigger);
+        let elementOffsetCenter =
+          targetElement.offset().left +
+          targetElement.width() / 2 -
+          $(mainCarousel).width() / 2;
+        let parentWidth = $(mainCarousel).width() + targetElement.width();
+        let progressCenter = elementOffsetCenter / parentWidth;
 
-      ScrollTrigger.defaults({
-        markers: false,
-      });
+        let progressCenterInvert = Math.abs(progressCenter);
 
-      // Sticky Circle Grow
-      $(".sticky-circle_wrap").each(function (index) {
-        let triggerElement = $(this);
-        let targetElement = $(".sticky-circle_element");
-
-        let tl = gsap.timeline({
-          scrollTrigger: {
-            trigger: triggerElement,
-            // trigger element - viewport
-            start: "top top",
-            end: "bottom top",
-            scrub: 1,
-          },
-        });
-        tl.fromTo(
-          targetElement,
-          {
-            width: "35em",
-            height: "35em",
-            borderRadius: "35em",
-            duration: 1,
-          },
-          {
-            width: "100vw",
-            height: "150vh",
-            borderRadius: "0em",
-            duration: 1,
-          }
+        let imageMoveDistance = Math.min(
+          Math.max(parallaxAmount * progressLeft, 0),
+          parallaxAmount
         );
+
+        targetElement
+          .find(".image")
+          .css("transform", `translateX(-${imageMoveDistance}%)`);
+        targetElement
+          .find(".tricks-slider_wrap")
+          .css(
+            "transform",
+            `translateY(${verticalAmount * progressCenter}%) rotate(${rotationAmount * progressCenter
+            }deg)`
+          );
       });
-    </script>
-    <script>
+    }
+
+    setImagePositions();
+
+    // --- Keep autoscrolling after manual scroll ---
+    // Restart autoplay whenever user interacts
+    flkty.on("dragEnd", function () {
+      flkty.playPlayer();
+    });
+
+    flkty.on("settle", function () {
+      flkty.playPlayer();
+    });
+
+    // Fallback in case autoplay stops
+    setInterval(() => {
+      if (!flkty.player.isPlaying) {
+        flkty.playPlayer();
+      }
+    }, 4000);
+  </script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+
+  <script>
+    var typed = new Typed(".typed-words", {
+      strings: [
+        "Unlock Exclusive Rewards",
+        "Priority Customer Support",
+        "Access to Exclusive Events",
+      ],
+      typeSpeed: 75,
+      backSpeed: 50,
+      backDelay: 800,
+      startDelay: 500,
+      loop: true,
+      showCursor: false,
+      cursorChar: "|",
+      attr: null,
+    });
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    ScrollTrigger.defaults({
+      markers: false,
+    });
+
+    // Sticky Circle Grow
+    $(".sticky-circle_wrap").each(function (index) {
+      let triggerElement = $(this);
+      let targetElement = $(".sticky-circle_element");
+
+      let tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: triggerElement,
+          // trigger element - viewport
+          start: "top top",
+          end: "bottom top",
+          scrub: 1,
+        },
+      });
+      tl.fromTo(
+        targetElement,
+        {
+          width: "35em",
+          height: "35em",
+          borderRadius: "35em",
+          duration: 1,
+        },
+        {
+          width: "100vw",
+          height: "150vh",
+          borderRadius: "0em",
+          duration: 1,
+        }
+      );
+    });
+  </script>
+  <script>
     (function () {
       function removeBadges() {
         document.querySelectorAll('.w-webflow-badge').forEach(el => el.remove());
@@ -2392,6 +2279,7 @@ Get early access to tournaments, special rental discounts, and members-only even
       const interval = setInterval(removeBadges, 1500);
       setTimeout(() => { observer.disconnect(); clearInterval(interval); }, 30000);
     })();
-    </script>
-  </body>
+  </script>
+</body>
+
 </html>

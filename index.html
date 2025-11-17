@@ -27,6 +27,37 @@
   <meta name="twitter:title" content="AI Gaming – PlayStation Rentals">
   <meta name="twitter:description" content="Rent PS5, PS4, monitors & more in Calicut. Free delivery.">
   <meta name="twitter:image" content="https://aiminfinitegaming.com/images/android-chrome-512x512.png">
+
+  <!-- ICON -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/favicon-512x512.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/favicon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/" rel="preconnect" />
+  <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin="anonymous" />
+
+  <!-- SITE ICONS -->
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link href="images/apple-touch-icon.png" rel="apple-touch-icon" />
+  <!-- OTHERS -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+  <link href="https://assets.website-files.com/645f0a04255d0d8665a9685b/css/pirate-spaceship.webflow.9b88a224d.css"
+    rel="stylesheet" type="text/css" />
+  <link rel="canonical" href="https://aiminfinitegaming.com/">
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17731854523"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-17731854523');
+  </script>
+  
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -47,17 +78,6 @@
       "openingHours": "Mo-Su 00:00-23:59"
     }
   </script>
-
-  <!-- ICON -->
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="512x512" href="images/favicon-512x512.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="images/favicon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <!-- FONTS -->
-  <link href="https://fonts.googleapis.com/" rel="preconnect" />
-  <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin="anonymous" />
   <!-- FONTS -->
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">
@@ -79,14 +99,6 @@
         (n.className += t + "touch");
     })(window, document);
   </script>
-  <!-- SITE ICONS -->
-  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-  <link href="images/apple-touch-icon.png" rel="apple-touch-icon" />
-  <!-- OTHERS -->
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
-  <link href="https://assets.website-files.com/645f0a04255d0d8665a9685b/css/pirate-spaceship.webflow.9b88a224d.css"
-    rel="stylesheet" type="text/css" />
-  <link rel="canonical" href="https://aiminfinitegaming.com/">
 
   <style>
     .flickity-viewport {
@@ -325,6 +337,17 @@ a,
       padding-right: 0rem !important;
       padding-left: 0rem !important;
     }
+
+    .reduce-padding-mobile {
+      display: block; /* Default display for larger screens */
+    }
+
+    @media (max-width: 767px) {
+      .reduce-padding-mobile {
+        margin-bottom: -10rem!important;
+      }
+    }
+
   </style>
 
 </head>
@@ -779,7 +802,7 @@ a,
                     " sizes="(max-width: 479px) 44vw, (max-width: 991px) 45vw, 43vw" alt="PlayStation For Rental In Calicut – AI Gaming" class="spaceship-3" />
             </div>
 
-            <div data-w-id="96de1624-99fc-08a2-9327-e5e4a81299d5" class="features-wrapper">
+            <div data-w-id="96de1624-99fc-08a2-9327-e5e4a81299d5" class="features-wrapper reduce-padding-mobile">
               <div class="content-wrapper">
                 <h3 class="heading-style-h4">
                   ANT ESPORTS GAMING CHAIR : GAME IN TOTAL COMFORT

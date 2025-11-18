@@ -144,6 +144,14 @@
       text-rendering: optimizeLegibility;
     }
 
+    .w--current {
+      color: #4d65ff !important;
+    }
+
+    .navbar_custom_styles {
+      max-height: 18vh;
+    }
+
     /* Focus state style for keyboard navigation for the focusable elements */
     *[tabindex]:focus-visible,
     input[type="file"]:focus-visible {
@@ -238,7 +246,10 @@ a,
     }
 
     @media screen and (max-width: 991px) {
-
+      .navbar_custom_styles {
+        position: inherit;
+        width: 90% !important;
+      }
       .hide,
       .hide-tablet {
         display: none !important;
@@ -349,6 +360,46 @@ a,
     }
 
   </style>
+  <style>
+  .plans-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch; /* Makes all cards equal height */
+    gap: 2rem;
+    padding: 2rem 0;
+    z-index: 999999;
+  }
+
+  .plan-card {
+    background: #0b1220;
+    border: 1px solid #00ffff;
+    border-radius: 12px;
+    padding: 2rem;
+    width: 300px;
+    display: flex;
+    flex-direction: column; /* Allows button to stay at bottom */
+  }
+
+  .plan-card.highlighted {
+    border: 2px solid #00ffff;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .plan-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+    flex-grow: 1; /* Makes lists stretch so button aligns at bottom */
+  }
+
+  .book-btn {
+    width: 100%;
+    margin-top: auto; /* Forces button to bottom of card */
+  }
+</style>
+
 
 </head>
 
@@ -362,8 +413,8 @@ a,
       <div data-animation="default" class="navbar_component w-nav" data-easing2="ease"
         fs-scrolldisable-element="smart-nav" data-easing="ease" data-collapse="medium"
         data-w-id="10fc0437-2deb-cf51-6e6e-426e68945339" role="banner" data-duration="400">
-
-        <div class="navbar_container">
+        <div id="home"></div>
+        <div class="navbar_container navbar_custom_styles" style="position: fixed;  z-index: 999; width: calc(100% - 8rem);">
 
           <!-- LOGO -->
           <a href="#" class="navbar_logo-link w-nav-brand hide-mobile-landscape">
@@ -380,11 +431,11 @@ a,
             <span></span>
           </button>
 
-          <!-- NAVBAR -->
-          <nav role="navigation" id="w-node-_10fc0437-2deb-cf51-6e6e-426e6894533d-65a968e8"
+          <!-- DESKTOP NAVBAR -->
+          <nav role="navigation" id="w-node-_10fc0437-2deb-cf51-6e6e-426e6894533d-65a968e8" style="background-color: rgba(1, 18, 47, 0.98); border-radius: 20px; padding: 1rem;"
             class="navbar_menu is-page-height-tablet w-nav-menu">
             <a href="#home" class="nav-bar w-nav-link">Home</a>
-            <a href="#key-points" class="nav-bar w-nav-link">Rentals</a>
+            <a href="#rentals" class="nav-bar w-nav-link">Rentals</a>
             <a href="#Popular-games" class="nav-bar w-nav-link">Games</a>
             <a href="#roadmap" class="nav-bar w-nav-link">Events</a>
             <a href="#coupon" class="nav-bar w-nav-link">Coupon</a>
@@ -394,7 +445,7 @@ a,
           <div id="mobile-nav" class="mobile-nav">
             <div class="mobile-nav-content">
               <a href="#home" class="mobile-nav-link">Home</a>
-              <a href="#key-points" class="mobile-nav-link">Rentals</a>
+              <a href="#rentals" class="mobile-nav-link">Rentals</a>
               <a href="#Popular-games" class="mobile-nav-link">Games</a>
               <a href="#roadmap" class="mobile-nav-link">Events</a>
               <a href="#coupon" class="mobile-nav-link">Coupon</a>
@@ -595,7 +646,7 @@ a,
         </div>
       </section>
 
-      <section id="key-points" class="features-section">
+      <section id="rentals" class="features-section">
         <div class="padding-global">
           <div class="container-large">
             <!-- <div class="padding-vertical"> -->
@@ -925,77 +976,70 @@ a,
                 }
               </style>
               <!-- Personal Plans -->
-              <div class="plans-container"
-                style="display:flex; flex-wrap:wrap; justify-content:center; gap:2rem; padding:2rem 0;">
+              <div class="plans-container">
 
-                <div class="plan-card"
-                  style="background:#0b1220; border:1px solid #00ffff; border-radius:12px; padding:2rem; width:300px;">
-                  <h3 class="heading-style-h4">Daily Plan</h3>
-                  <div class="price" style="font-size:2.5rem; color:#00ffff; margin:1rem 0;">
-                    ₹499<span style="font-size:1rem; color:#fff;">/Day</span>
-                  </div>
-                  <ul style="list-style:none; padding:0; margin:1.5rem 0;">
-                    <li style="margin:0.75rem 0;">✓ Free delivery and pickup</li>
-                    <li style="margin:0.75rem 0;">✓ One controller</li>
-                    <li style="margin:0.75rem 0;">✓ FC25 / GTA 5 / WWE2K24</li>
-                    <li style="margin:0.75rem 0;">✓ 24/7 support</li>
-                    <li style="margin:0.75rem 0;">✓ Extra controller ₹100</li>
-                    <li style="margin:0.75rem 0;">✓ Extra game ₹100</li>
-                    <li class="mobileHide">&nbsp;</li>
-                    <li class="mobileHide">&nbsp;</li>
-                  </ul>
-                  <button class="button is-form-submit w-button" style="width:100%;"
-                    onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('I would like to get the Daily rental plan'), '_blank')">Book
-                    Now</button>
-                </div>
+  <div class="plan-card">
+    <h3 class="heading-style-h4">Daily Plan</h3>
+    <div class="price" style="font-size:2.5rem; color:#00ffff; margin:1rem 0;">
+      ₹499<span style="font-size:1rem; color:#fff;">/Day</span>
+    </div>
+    <ul>
+      <li>✓ Free delivery and pickup</li>
+      <li>✓ One controller</li>
+      <li>✓ FC25 / GTA 5 / WWE2K24</li>
+      <li>✓ 24/7 support</li>
+      <li>✓ Extra controller ₹100</li>
+      <li>✓ Extra game ₹100</li>
+    </ul>
+    <button class="button is-form-submit w-button book-btn"
+      onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('I would like to get the Daily rental plan'), '_blank')">
+      Book Now
+    </button>
+  </div>
 
-                <div class="plan-card"
-                  style="background:#0b1220; border:1px solid #00ffff; border-radius:12px; padding:2rem; width:300px;">
-                  <h3 class="heading-style-h4">Weekly Plan</h3>
-                  <div class="price" style="font-size:2.5rem; color:#00ffff; margin:1rem 0;">
-                    ₹2,499<span style="font-size:1rem; color:#fff;">/Week</span>
-                  </div>
-                  <ul style="list-style:none; padding:0; margin:1.5rem 0;">
-                    <li style="margin:0.75rem 0;">✓ Free delivery and pickup</li>
-                    <li style="margin:0.75rem 0;">✓ One controller</li>
-                    <li style="margin:0.75rem 0;">✓ FC25 / GTA 5 / WWE2K24</li>
-                    <li style="margin:0.75rem 0;">✓ One free game of your choice</li>
-                    <li style="margin:0.75rem 0;">✓ 24/7 support</li>
-                    <li style="margin:0.75rem 0;">✓ Extra controller ₹699</li>
-                    <li style="margin:0.75rem 0;">✓ Extra game ₹349</li>
-                  </ul>
-                  <button class="button is-form-submit w-button" style="width:100%;"
-                    onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('I would like to get the Weekly rental plan'), '_blank')">Book
-                    Now</button>
-                </div>
+  <div class="plan-card">
+    <h3 class="heading-style-h4">Weekly Plan</h3>
+    <div class="price" style="font-size:2.5rem; color:#00ffff; margin:1rem 0;">
+      ₹2,499<span style="font-size:1rem; color:#fff;">/Week</span>
+    </div>
+    <ul>
+      <li>✓ Free delivery and pickup</li>
+      <li>✓ One controller</li>
+      <li>✓ FC25 / GTA 5 / WWE2K24</li>
+      <li>✓ One free game of your choice</li>
+      <li>✓ 24/7 support</li>
+      <li>✓ Extra controller ₹699</li>
+      <li>✓ Extra game ₹349</li>
+    </ul>
+    <button class="button is-form-submit w-button book-btn"
+      onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('I would like to get the Weekly rental plan'), '_blank')">
+      Book Now
+    </button>
+  </div>
 
-                <div class="plan-card highlighted"
-                  style="background:#0b1220; border:2px solid #00ffff; border-radius:12px; padding:2rem; width:300px; position:relative; overflow:hidden;">
-                  <div
-                    style="position:absolute; top:12px; right:-40px; background:#00ffff; color:#0b1220; padding:5px 40px; transform:rotate(45deg);">
-                    &nbsp;&nbsp;&nbsp;&nbsp; Best Value
-                  </div>
-                  <h3 class="heading-style-h4">Monthly Plan</h3>
-                  <div class="price" style="font-size:2.5rem; color:#00ffff; margin:1rem 0;">
-                    ₹8,999<span style="font-size:1rem; color:#fff;">/Month</span>
-                  </div>
-                  <ul style="list-style:none; padding:0; margin:1.5rem 0;">
-                    <li style="margin:0.75rem 0;">✓ Free delivery and pickup</li>
-                    <li style="margin:0.75rem 0;">✓ 2 controllers</li>
-                    <li style="margin:0.75rem 0;">✓ FC25 / GTA 5 / WWE2K24</li>
-                    <li style="margin:0.75rem 0;">✓ 5 free games of your choice</li>
-                    <li style="margin:0.75rem 0;">✓ 24/7 support</li>
-                    <li class="mobileHide">&nbsp;</li>
-                    <li class="mobileHide">&nbsp;</li>
-                    <li class="mobileHide">&nbsp;</li>
+  <div class="plan-card highlighted">
+    <div style="position:absolute; top:12px; right:-40px; background:#00ffff; color:#0b1220; padding:5px 40px; transform:rotate(45deg);">
+      Best Value
+    </div>
+    <h3 class="heading-style-h4">Monthly Plan</h3>
+    <div class="price" style="font-size:2.5rem; color:#00ffff; margin:1rem 0;">
+      ₹8,999<span style="font-size:1rem; color:#fff;">/Month</span>
+    </div>
+    <ul>
+      <li>✓ Free delivery and pickup</li>
+      <li>✓ 2 controllers</li>
+      <li>✓ FC25 / GTA 5 / WWE2K24</li>
+      <li>✓ 5 free games of your choice</li>
+      <li>✓ 24/7 support</li>
+    </ul>
+    <button class="button is-form-submit w-button book-btn"
+      onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('I would like to get the Monthly rental plan'), '_blank')">
+      Book Now
+    </button>
+  </div>
 
-                  </ul>
-                  <button class="button is-form-submit w-button" style="width:100%;"
-                    onclick="window.open('https://wa.me/9497001150?text='+encodeURIComponent('I would like to get the Monthly rental plan'), '_blank')">Book
-                    Now</button>
-                </div>
+</div>
 
-              </div>
 
               <!-- Corporate Plans -->
               <div class="spacer-medium"></div>
@@ -2085,7 +2129,7 @@ a,
               <h4 style="text-align: center; margin-right: 3rem;">Quick Links</h4>
               <ul>
                 <li><a href="#Home">Home</a></li>
-                <li><a href="#key-points">Rentals</a></li>
+                <li><a href="#rentals">Rentals</a></li>
                 <li><a href="#Popular-games">Games</a></li>
                 <li><a href="#roadmap">Events</a></li>
                 <li><a href="#coupon">Coupon</a></li>
